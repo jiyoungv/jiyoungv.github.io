@@ -24,13 +24,9 @@ var scemeMedia = window.matchMedia('(prefers-color-scheme: dark)');
 var checkElement = document.querySelector('.mode-chk');
 
 scemeMedia.addEventListener('change', function (e){
-    isDark = e.matches;
-    
+    var isDark = e.matches;
     checkElement.innerHTML = isDark;
-
-    
     console.log('change :' + isDark)
-    console.dir(e);
 });
 </script>
 
