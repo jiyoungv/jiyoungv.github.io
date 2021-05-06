@@ -21,10 +21,13 @@
 
 <script>
 var scemeMedia = window.matchMedia('(prefers-color-scheme: dark)');
+var isDark = false;
 var checkElement = document.querySelector('.mode-chk');
 
+checkElement.innerHTML = isDark;
+
 scemeMedia.addEventListener('change', function (e){
-    var isDark = e.matches;
+    isDark = e.matches;
     checkElement.innerHTML = isDark;
     console.log('change :' + isDark)
 });
