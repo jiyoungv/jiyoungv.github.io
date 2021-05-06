@@ -20,10 +20,18 @@
 </div>
 
 <script>
-var isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+var scemeMedia = window.matchMedia('(prefers-color-scheme: dark)');
 var checkElement = document.querySelector('.mode-chk');
-let text = document.createTextNode(isDark);
-checkElement.innerHTML = isDark;
+
+scemeMedia.addEventListener('change', function (e){
+    isDark = e.matches;
+    
+    checkElement.innerHTML = isDark;
+
+    
+    console.log('change :' + isDark)
+    console.dir(e);
+});
 </script>
 
 </body></html>
