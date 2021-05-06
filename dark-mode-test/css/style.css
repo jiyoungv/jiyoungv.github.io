@@ -1,1 +1,1 @@
-body{color:blue}@media (prefers-color-scheme: dark){body{color:red}}
+.no-mode{display:inline-block;border:1px solid grey;background:yellow;color:red;font-size:20px}@media (prefers-color-scheme: light){body{background:#fff;color:mediumpurple}}@media (prefers-color-scheme: dark){body{background:#333;color:#fff}}
