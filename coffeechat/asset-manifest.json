@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a0288994.chunk.css",
+    "main.js": "./static/js/main.ca06bf88.chunk.js",
+    "main.js.map": "./static/js/main.ca06bf88.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.4847a29c.js",
+    "runtime-main.js.map": "./static/js/runtime-main.4847a29c.js.map",
+    "static/css/2.0fdf20fe.chunk.css": "./static/css/2.0fdf20fe.chunk.css",
+    "static/js/2.cbae8f44.chunk.js": "./static/js/2.cbae8f44.chunk.js",
+    "static/js/2.cbae8f44.chunk.js.map": "./static/js/2.cbae8f44.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.0fdf20fe.chunk.css.map": "./static/css/2.0fdf20fe.chunk.css.map",
+    "static/css/main.a0288994.chunk.css.map": "./static/css/main.a0288994.chunk.css.map",
+    "static/js/2.cbae8f44.chunk.js.LICENSE.txt": "./static/js/2.cbae8f44.chunk.js.LICENSE.txt",
+    "static/media/chevron_right.2b037443.svg": "./static/media/chevron_right.2b037443.svg",
+    "static/media/ic_qoute.3628aec4.svg": "./static/media/ic_qoute.3628aec4.svg",
+    "static/media/img_3d_bubble.0f2be10a.png": "./static/media/img_3d_bubble.0f2be10a.png",
+    "static/media/img_3d_chat.1e51d2b6.png": "./static/media/img_3d_chat.1e51d2b6.png",
+    "static/media/img_3d_coffeecup.9943c91a.png": "./static/media/img_3d_coffeecup.9943c91a.png",
+    "static/media/img_3d_globe.39b7b634.png": "./static/media/img_3d_globe.39b7b634.png",
+    "static/media/img_cc_logotype.0984b237.svg": "./static/media/img_cc_logotype.0984b237.svg",
+    "static/media/img_cc_logotype_brand.d04e0cd3.svg": "./static/media/img_cc_logotype_brand.d04e0cd3.svg",
+    "static/media/img_company_logos.4ec9505f.png": "./static/media/img_company_logos.4ec9505f.png",
+    "static/media/img_screen_step1.322aa3ca.png": "./static/media/img_screen_step1.322aa3ca.png",
+    "static/media/img_screen_step2.0f31c8f4.png": "./static/media/img_screen_step2.0f31c8f4.png",
+    "static/media/img_screen_step3.29d46797.png": "./static/media/img_screen_step3.29d46797.png",
+    "static/media/img_screen_step4.8674a343.png": "./static/media/img_screen_step4.8674a343.png",
+    "static/media/img_screen_step5.93ea2833.png": "./static/media/img_screen_step5.93ea2833.png",
+    "static/media/img_uservp1.57f3e203.png": "./static/media/img_uservp1.57f3e203.png",
+    "static/media/img_uservp2.3ae79653.png": "./static/media/img_uservp2.3ae79653.png",
+    "static/media/img_uservp3.7b1c8ac7.png": "./static/media/img_uservp3.7b1c8ac7.png",
+    "static/media/font.css": "./static/media/noto-sans-kr-v13-latin_korean-regular.caafc8d1.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4847a29c.js",
+    "static/css/2.0fdf20fe.chunk.css",
+    "static/js/2.cbae8f44.chunk.js",
+    "static/css/main.a0288994.chunk.css",
+    "static/js/main.ca06bf88.chunk.js"
+  ]
+}
