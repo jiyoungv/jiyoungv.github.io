@@ -11,10 +11,10 @@ figure {margin: 0;line-height: 1;}
 b, strong {font-weight: bold;}
 b.bolder, strong.bolder {font-weight: 900;}
 img {display: inline-block;max-width: 100%;vertical-align: top;}
-input {margin: 0;border-radius: 0;}
-input[type='text'] {-webkit-appearance: none;-webkit-border-radius: 0;}
+input, textarea {margin: 0;border-radius: 0;}
+input[type='text'], textarea {-webkit-appearance: none;-webkit-border-radius: 0;background: #fff;}
 label {cursor: pointer;}
-a:hover, a:active, a:visited, a:-webkit-any-link {text-decoration: none;color: #000;}
+a, a:hover, a:active, a:visited {text-decoration: none;color: #000;}
 button {outline: none;border: 0;cursor: pointer;}
 
 /* color */
@@ -23,7 +23,7 @@ button {outline: none;border: 0;cursor: pointer;}
 /* common class */
 .common-clear::after {content: '';display: block;clear: both;}
 .common-hidden {z-index: 1;position: absolute;width: 1px;height: 1px;opacity: 0;}
-.common-inner {position: relative;max-width: 1200px;margin: 0 auto;outline: 1px solid yellowgreen;}
+.common-inner {position: relative;max-width: 1200px;margin: 0 auto;}
 .common-inner::after {content: '';display: block;clear: both;}
 .common-section {padding-top: 128px;background: #ccdd79;}
 
@@ -53,6 +53,9 @@ textarea.common-input {padding: 18px;}
 .common-caution {margin-top: 5px;font-size: 17px;}
 .common-caution p {display: flex;}
 .common-caution p::before {content: '※';margin-right: 3px;}
+.common-star {font-size: 18px;}
+.common-star p {display: flex;}
+.common-star p::before {content: '*';margin-right: 3px;}
 
 .common-t-show {display: none;}
 .common-m-show {display: none;}
@@ -72,7 +75,7 @@ textarea.common-input {padding: 18px;}
 .hero-img {width: 90%;margin:0 auto;text-align: center;}
 
 /* gnb */
-#gnb {z-index: 10;position: absolute;bottom: -40px;left: 0;width: 100%;}
+#gnb {z-index: 10;position: absolute;bottom: -39px;left: 0;width: 100%;}
 .gnb-list {display: flex;overflow: hidden;border: 8px solid #ccdd79;border-radius: 36px;}
 .gnb-list > li {width: 25%;text-align: center;font-size: 28px;background: #44aa33;}
 .gnb-list > li > a {display: block;padding: 11px 0;color: #fff;transition: color 0.3s;}
@@ -101,9 +104,7 @@ textarea.common-input {padding: 18px;}
     .common-list-txt {padding-left: 20px;padding-right: 20px;}
 
     .common-t-show {display: block;}
-    .common-t-hide {display: none;}
-
-    /* hero */
+    .common-t-hide {display: none !important;}
 }
 
 /* mobile */
@@ -130,11 +131,12 @@ textarea.common-input {padding: 18px;}
     .common-file-label {width: 95px;height: 40px;line-height: 40px;}
     .common-button {width: 190px;height: 50px;line-height: 50px;font-size: 20px;}
     .common-caution {font-size: 15px;}
+    .common-star {font-size: 16px;}
 
     .common-t-show {display: block;}
-    .common-t-hide {display: none;}
+    .common-t-hide {display: none !important;}
     .common-m-show {display: block;}
-    .common-m-hide {display: none;}
+    .common-m-hide {display: none !important;}
 
     /* header */
     #header {padding-top: 20px;}
@@ -144,7 +146,7 @@ textarea.common-input {padding: 18px;}
     .hero-section {padding-top: 100px;padding-bottom: 0;}
     .hero-tit h1 {width: 90%;margin: 0 auto 30px;}
     .hero-tit p {font-size: 18px;}
-    .hero-tit-flag {padding-left: 15px;padding-right: 15px;font-size: 17px;}
+    .hero-tit-flag {padding: 6px 15px;font-size: 17px;}
     .hero-img {width: 102%;margin-left: -1%;}
 
     /* gnb */
@@ -162,5 +164,5 @@ textarea.common-input {padding: 18px;}
     /* footer */
     #footer {padding: 24px 0;}
     .footer-list li {margin-right: 40px;}
-    .footer-list li a img {width: 140px;}
+    .footer-list li a img {width: 130px;}
 }

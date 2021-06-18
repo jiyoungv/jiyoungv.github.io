@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* 
+ * 접수확인 스타일
+ */
+
+.check-content {display: flex;flex-direction: row-reverse;}
+.check-form, 
+.check-img {width: 50%;flex-shrink: 0;}
+.check-form {padding: 130px 70px;background: #f5f5f5;}
+.check-form-input div {margin-bottom: 35px;}
+.check-form-input div:last-of-type {margin-bottom: 0;}
+.check-form-input div h6 {margin-bottom: 3px;font-size: 22px;}
+.check-button {margin-top: 60px;}
+.check-img {display: flex;align-items: center;padding-left: 38px;}
+
+/* tablet */
+@media (max-width: 1200px) and (min-width: 641px) {
+    .check-form {padding: 100px 20px;}
+    .check-form-input div {margin-bottom: 20px;}
+    .check-button {margin-top: 40px;}
+    .check-img {padding: 0 10px;}
+}
+
+/* mobile */
+@media (max-width: 640px) {
+    .check-form-input .common-list-tit {display: inline-block;}
+    .check-content {display: block;padding: 40px 4%;}
+    .check-form, 
+    .check-img {width: auto;}
+    .check-form {padding: 0;background: transparent;}
+    .check-form-input div {margin-bottom: 20px;}
+    .check-form-input div h6 {font-size: 18px;}
+    .check-button {margin: 50px auto 0;}
+    .check-img {display: block;max-width: 70%;margin: 40px auto 0;padding-left: 0;}
+}

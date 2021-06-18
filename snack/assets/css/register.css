@@ -41,7 +41,7 @@
     .register-info-con-input input:first-of-type {margin-top: 0;}
     .register-con h6 {margin-bottom: 8px;font-size: 17px;}
 
-    .register-agree-info {height: 300px;}
+    .register-agree-info {height: 200px;}
     .register-agree-chk {text-align: left;}
     .register-agree-chk p {font-size: 16px;}
     .register-agree-chk-con {justify-content: flex-start;}
@@ -50,5 +50,7 @@
     .register-agree2 {margin-top: 30px;}
     .register-art {margin-bottom: 20px;}
     .register-art textarea {height: 200px;}
+    .register-art-con .common-file-wrap {margin-top: 12px;}
+    .register-art-con .common-file-wrap:first-child {margin-top: 0;}
     .register-button {margin-top: 50px;}
 }

@@ -14,6 +14,7 @@
 
 /* tablet */
 @media (max-width: 1200px) and (min-width: 641px) {
+    .guide-list-order li br {display: none;}
 }
 
 /* mobile */
@@ -21,4 +22,5 @@
     .guide-list > li {margin-bottom: 25px;}
     .guide-list-unorder li,
     .guide-list-order li {font-size: 16px;}
+    .guide-list-order li br {display: none;}
 }
