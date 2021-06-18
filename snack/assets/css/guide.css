@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* 
+ * 공모요강 스타일
+ */
+
+.guide-list > li {margin-bottom: 30px;}
+.guide-list > li:last-of-type {margin-bottom: 0;}
+.guide-list-step {text-align: center;}
+.guide-list-unorder li {display: flex;font-size: 18px;}
+.guide-list-unorder li::before {content: '-';display: block;margin-right: 4px;}
+.guide-list-order {padding-left: 18px;list-style: decimal;}
+.guide-list-order li {font-size: 18px;}
+
+/* tablet */
+@media (max-width: 1200px) and (min-width: 641px) {
+}
+
+/* mobile */
+@media (max-width: 640px) {
+    .guide-list > li {margin-bottom: 25px;}
+    .guide-list-unorder li,
+    .guide-list-order li {font-size: 16px;}
+}

@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* 
+ * 접수하기 스타일
+ */
+
+.register-list li {margin-bottom: 70px;}
+.register-list li:last-of-type {margin-bottom: 0;}
+.register-con h6 {margin-bottom: 16px;font-size: 18px;}
+
+.register-agree-info {overflow-y: auto;height: 360px;border: 1px solid #999;padding: 16px;}
+.register-agree-chk {margin-top: 15px;text-align: center;}
+.register-agree-chk p {font-size: 18px;}
+.register-agree-chk-con {display: flex;justify-content: center;align-items: center;margin-top: 20px;}
+.register-agree-chk-con div {display: inline-flex;align-items: center;margin-right: 30px;}
+.register-agree-chk-con div:last-of-type {margin-right: 0;}
+.register-agree-chk-con div input[type='radio'] {margin-right: 8px;margin-bottom: 2px;}
+.register-agree-chk-con div label {font-size: 18px;}
+.register-agree1 {margin-top: 30px;}
+.register-agree2 {margin-top: 70px;}
+
+.register-info-con-input input {float: left;width: 49%;margin-top: 16px;margin-right: 2%;}
+.register-info-con-input input:nth-of-type(-n+2) {margin-top: 0;}
+.register-info-con-input input:nth-of-type(even) {margin-right: 0;}
+
+.register-art {margin-bottom: 30px;}
+.register-art textarea {height: 283px;resize: none;}
+
+.register-button {margin: 70px auto 0;}
+
+/* tablet */
+@media (max-width: 1200px) and (min-width: 641px) {
+}
+
+/* mobile */
+@media (max-width: 640px) {
+    .register-list li {margin: 0 0 40px;padding: 0;}    
+    .register-list li:last-of-type {margin: 0;}
+    .register-info-con-input input {width: 100%;margin-right: 0;margin-top: 12px;}
+    .register-info-con-input input:nth-of-type(-n+2) {margin-top: 12px;}
+    .register-info-con-input input:first-of-type {margin-top: 0;}
+    .register-con h6 {margin-bottom: 8px;font-size: 17px;}
+
+    .register-agree-info {height: 300px;}
+    .register-agree-chk {text-align: left;}
+    .register-agree-chk p {font-size: 16px;}
+    .register-agree-chk-con {justify-content: flex-start;}
+    .register-agree-chk-con div label {font-size: 16px;}
+    .register-agree1 {margin-top: 20px;}
+    .register-agree2 {margin-top: 30px;}
+    .register-art {margin-bottom: 20px;}
+    .register-art textarea {height: 200px;}
+    .register-button {margin-top: 50px;}
+}

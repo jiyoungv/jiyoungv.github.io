@@ -9,18 +9,50 @@ body {font-family: 'NanumSquare', -apple-system, BlinkMacSystemFont, "Segoe UI",
 section, article {position: relative;}
 figure {margin: 0;line-height: 1;}
 b, strong {font-weight: bold;}
+b.bolder, strong.bolder {font-weight: 900;}
 img {display: inline-block;max-width: 100%;vertical-align: top;}
+input {margin: 0;border-radius: 0;}
+input[type='text'] {-webkit-appearance: none;-webkit-border-radius: 0;}
+label {cursor: pointer;}
 a:hover, a:active, a:visited, a:-webkit-any-link {text-decoration: none;color: #000;}
+button {outline: none;border: 0;cursor: pointer;}
+
+/* color */
+.color-red {color: #ff0000;}
 
 /* common class */
+.common-clear::after {content: '';display: block;clear: both;}
+.common-hidden {z-index: 1;position: absolute;width: 1px;height: 1px;opacity: 0;}
 .common-inner {position: relative;max-width: 1200px;margin: 0 auto;outline: 1px solid yellowgreen;}
 .common-inner::after {content: '';display: block;clear: both;}
-.common-clear::after {content: '';display: block;clear: both;}
 .common-section {padding-top: 128px;background: #ccdd79;}
-.common-content {}
+
 .common-content-tit {width: 160px;height: 80px;margin: 0 auto;border-radius: 50% / 100% 100% 0 0;padding-top: 20px;text-align: center;font-size: 22px;background: #4ba634;color: #fff;}
 .common-content-tit::before {content: '';display: block;width: 18px;height: 20px;margin: 0 auto 5px;background: url('../images/icon_apple.png') center / 100% auto no-repeat;}
 .common-content-box {border-top: 8px solid #4ba634;background: #fff;}
+
+.common-list-wrap {position: relative;padding: 50px 0 70px;}
+.common-list-bg {z-index: 1;position: absolute;top: 0;left: 0;width: 180px;height: 100%;background: #f5f5f5;}
+.common-list {z-index: 2;position: relative;}
+.common-list > li {display: flex;}
+.common-list-tit {flex-shrink: 0;position:relative;width: 180px;padding: 0 45px;font-size: 22px;color: #2d751b;}
+.common-list-tit::after {content: '';position: absolute;right: -3px;top: 13px;display: block;width: 7px;height: 7px;border-radius: 50%;background: #2d751b;}
+.common-list-txt {flex-grow: 1;padding: 3px 40px 0;}
+.common-list-txt > p {font-size: 18px;}
+
+.common-input {width: 100%;border: 1px solid #999;padding: 0 18px;font-family: 'NanumSquare', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-size: 16px;line-height: 1.5;letter-spacing: -0.05em;}
+.common-input::placeholder {color: #888;}
+.common-input[type='text'],
+.common-file-text {height: 48px;line-height: 48px;}
+textarea.common-input {padding: 18px;}
+.common-file-wrap {position: relative;}
+.common-file-text {width: calc(100% - 136px);}
+.common-file-label {position: absolute;right: 0;top: 0;width: 136px;height: 48px;line-height: 48px;text-align: center;background: #333;color: #fff;}
+.common-button {display: block;width: 240px;height: 60px;line-height: 60px;border-radius: 30px;font-size: 22px;background: #2d751b;color: #fff;font-family: 'NanumSquare', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";letter-spacing: -0.05em;}
+.common-button:hover {color: #ffff00;}
+.common-caution {margin-top: 5px;font-size: 17px;}
+.common-caution p {display: flex;}
+.common-caution p::before {content: '※';margin-right: 3px;}
 
 .common-t-show {display: none;}
 .common-m-show {display: none;}
@@ -51,6 +83,7 @@ a:hover, a:active, a:visited, a:-webkit-any-link {text-decoration: none;color: #
 /* snb */
 #snb {padding-bottom: 160px;background: #ccdd79;}
 .snb-list {display: flex;}
+.snb-list li {width: 33.3333%;}
 
 /* footer */
 #footer {padding: 76px 0;background: #333;}
@@ -62,18 +95,42 @@ a:hover, a:active, a:visited, a:-webkit-any-link {text-decoration: none;color: #
 @media (max-width: 1200px) and (min-width: 641px) {
     /* common class */
     .common-inner {width: 92%;}
+    
+    .common-list-bg {width: 130px;}
+    .common-list-tit {width: 130px;padding: 0 25px;}
+    .common-list-txt {padding-left: 20px;padding-right: 20px;}
+
     .common-t-show {display: block;}
     .common-t-hide {display: none;}
 
     /* hero */
-    
 }
 
 /* mobile */
 @media (max-width: 640px) {
     /* common class */
     .common-inner {width: 92%;}
-    .common-section {padding-top: 60px;}
+    .common-section {padding-top: 40px;}
+    .common-content-tit {display: none;}
+    
+    .common-list-wrap {padding: 40px 5%;}
+    .common-list-bg {display: none;}
+    .common-list > li {display: block;}
+    .common-list > li:first-of-type {padding: 0;}
+    .common-list > li:last-of-type {padding: 0;}
+    .common-list-tit {width: auto;display: inline-block;margin-bottom: 8px;padding: 3px 22px;border-radius: 20px;font-size: 17px;background: #4ba634;color: #fff;}
+    .common-list-tit::after {display: none;}
+    .common-list-tit br {display: none;}
+    .common-list-txt {padding: 0;}
+    .common-list-txt > p {font-size: 16px;}
+
+    .common-input {padding: 0 12px;}
+    .common-input[type='text'], .common-file-text {height: 40px;line-height: 40px;}
+    textarea.common-input {padding: 12px;}
+    .common-file-label {width: 95px;height: 40px;line-height: 40px;}
+    .common-button {width: 190px;height: 50px;line-height: 50px;font-size: 20px;}
+    .common-caution {font-size: 15px;}
+
     .common-t-show {display: block;}
     .common-t-hide {display: none;}
     .common-m-show {display: block;}
@@ -87,7 +144,7 @@ a:hover, a:active, a:visited, a:-webkit-any-link {text-decoration: none;color: #
     .hero-section {padding-top: 100px;padding-bottom: 0;}
     .hero-tit h1 {width: 90%;margin: 0 auto 30px;}
     .hero-tit p {font-size: 18px;}
-    .hero-tit-flag {padding-left: 15px;padding-right: 15px;font-size: 18px;}
+    .hero-tit-flag {padding-left: 15px;padding-right: 15px;font-size: 17px;}
     .hero-img {width: 102%;margin-left: -1%;}
 
     /* gnb */
@@ -99,6 +156,8 @@ a:hover, a:active, a:visited, a:-webkit-any-link {text-decoration: none;color: #
     /* snb */
     #snb {padding-bottom: 0;padding-top: 60px;}
     #snb .common-inner {width: 100%;}
+    .snb-list li {width: 33.125%;}
+    .snb-list li:nth-of-type(2) {width: 33.75%;}
 
     /* footer */
     #footer {padding: 24px 0;}
