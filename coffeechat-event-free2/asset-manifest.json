@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "./static/js/main.03da59bd.chunk.js",
+    "main.js.map": "./static/js/main.03da59bd.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.0021c34a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.0021c34a.js.map",
+    "static/js/2.c1a62e96.chunk.js": "./static/js/2.c1a62e96.chunk.js",
+    "static/js/2.c1a62e96.chunk.js.map": "./static/js/2.c1a62e96.chunk.js.map",
+    "index.html": "./index.html",
+    "static/js/2.c1a62e96.chunk.js.LICENSE.txt": "./static/js/2.c1a62e96.chunk.js.LICENSE.txt",
+    "static/media/img_cc_logotype.0984b237.svg": "./static/media/img_cc_logotype.0984b237.svg",
+    "static/media/img_cc_logotype_brand.d04e0cd3.svg": "./static/media/img_cc_logotype_brand.d04e0cd3.svg",
+    "static/media/img_event_hero.bc893453.jpg": "./static/media/img_event_hero.bc893453.jpg",
+    "static/media/img_event_info.e0737586.jpg": "./static/media/img_event_info.e0737586.jpg",
+    "static/media/img_event_intro.d8e94676.jpg": "./static/media/img_event_intro.d8e94676.jpg",
+    "static/media/img_event_partner_btn1.6d44f8ac.png": "./static/media/img_event_partner_btn1.6d44f8ac.png",
+    "static/media/img_event_partner_btn2.41828ae6.png": "./static/media/img_event_partner_btn2.41828ae6.png",
+    "static/media/img_event_partner_btn3.7bd54442.png": "./static/media/img_event_partner_btn3.7bd54442.png",
+    "static/media/img_event_partner_btn4.1d066d16.png": "./static/media/img_event_partner_btn4.1d066d16.png",
+    "static/media/img_event_partner_logo.1a7d129b.png": "./static/media/img_event_partner_logo.1a7d129b.png",
+    "static/media/img_event_partner_tit.71769110.png": "./static/media/img_event_partner_tit.71769110.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0021c34a.js",
+    "static/js/2.c1a62e96.chunk.js",
+    "static/js/main.03da59bd.chunk.js"
+  ]
+}
