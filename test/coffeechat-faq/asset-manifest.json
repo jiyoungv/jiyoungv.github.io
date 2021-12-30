@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.1136b4ac.css",
-    "main.js": "./static/js/main.df9fabb4.js",
-    "static/media/img_hero.png": "./static/media/img_hero.fa452f8c28ed800cda44.png",
+    "main.css": "./static/css/main.907258a7.css",
+    "main.js": "./static/js/main.ab3cbac5.js",
+    "static/media/img_hero.png": "./static/media/img_hero.65baf6c2266de06b1250.png",
     "static/media/Gilroy-ExtraBold.otf": "./static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
     "static/media/Gilroy-Regular.otf": "./static/media/Gilroy-Regular.86bc2a5a8350170447c9.otf",
     "static/media/img_cc_logotype_brand.svg": "./static/media/img_cc_logotype_brand.e53fb271d18d7d23948ab0d9d92d5c1b.svg",
     "static/media/img_cc_logotype.svg": "./static/media/img_cc_logotype.ea8ca30981418a9955c25fdee2ea9829.svg",
     "index.html": "./index.html",
-    "main.1136b4ac.css.map": "./static/css/main.1136b4ac.css.map",
-    "main.df9fabb4.js.map": "./static/js/main.df9fabb4.js.map"
+    "static/media/icon_arrow.svg": "./static/media/icon_arrow.ba8b847bc3c74f691226bf640e899916.svg",
+    "main.907258a7.css.map": "./static/css/main.907258a7.css.map",
+    "main.ab3cbac5.js.map": "./static/js/main.ab3cbac5.js.map"
   },
   "entrypoints": [
-    "static/css/main.1136b4ac.css",
-    "static/js/main.df9fabb4.js"
+    "static/css/main.907258a7.css",
+    "static/js/main.ab3cbac5.js"
   ]
 }
