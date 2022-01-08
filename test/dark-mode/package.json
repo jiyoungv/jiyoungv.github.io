@@ -1,0 +1,18 @@
+{
+  "name": "jiyoungv.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node-sass -w --output-style compressed scss -o css",
+    "build": "node-sass --output-style compressed scss -o css"
+  },
+  "author": "jiyoung",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
