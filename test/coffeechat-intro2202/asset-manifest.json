@@ -1,13 +1,23 @@
 {
   "files": {
     "main.css": "./static/css/main.7ba45d37.css",
-    "main.js": "./static/js/main.02db6c33.js",
+    "main.js": "./static/js/main.06545316.js",
+    "static/media/howto_tablet_bg5.png": "./static/media/howto_tablet_bg5.8da3cf3e9ff25fa1fb28.png",
+    "static/media/howto_tablet_bg4.png": "./static/media/howto_tablet_bg4.12818177ef4f098a6126.png",
     "static/media/hero_bg.png": "./static/media/hero_bg.3e933f1130e39aab4f36.png",
     "static/media/connect_bg.png": "./static/media/connect_bg.410b404e2d1729519588.png",
     "static/media/hero_bg_tablet.png": "./static/media/hero_bg_tablet.8e64f7db5c0c7bc4016d.png",
+    "static/media/howto_tablet_bg2.png": "./static/media/howto_tablet_bg2.39ed0f85ba960e0acc9d.png",
+    "static/media/howto_mobile_bg5.png": "./static/media/howto_mobile_bg5.839a70eb4dd8a0c66e74.png",
+    "static/media/howto_tablet_bg3.png": "./static/media/howto_tablet_bg3.de5dca20decbad210731.png",
     "static/media/hero_bg_mobile.png": "./static/media/hero_bg_mobile.76780c132cd15b6da146.png",
+    "static/media/howto_mobile_bg2.png": "./static/media/howto_mobile_bg2.931688d04eb2cc5780bf.png",
+    "static/media/howto_mobile_bg1.png": "./static/media/howto_mobile_bg1.3886ac67df6d8c1113dc.png",
+    "static/media/howto_mobile_bg4.png": "./static/media/howto_mobile_bg4.c4a52f5d63aa08b56ef6.png",
+    "static/media/howto_mobile_bg3.png": "./static/media/howto_mobile_bg3.512d657b30b8efc1e066.png",
     "static/media/eb_coupon.png": "./static/media/eb_coupon.3785aac9c5067baadd7e.png",
     "static/media/review_type4_bg.png": "./static/media/review_type4_bg.3704b9a333422956f538.png",
+    "static/media/howto_tablet_bg1.png": "./static/media/howto_tablet_bg1.082158af45a7618ed482.png",
     "static/media/Gilroy-ExtraBold.otf": "./static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
     "static/media/Gilroy-Regular.otf": "./static/media/Gilroy-Regular.86bc2a5a8350170447c9.otf",
     "static/media/short_mark.png": "./static/media/short_mark.d82ac3df3bbbcf096131.png",
@@ -15,10 +25,10 @@
     "static/media/img_cc_logotype.svg": "./static/media/img_cc_logotype.e6d8958a9d61c6ad507ac20642206adc.svg",
     "index.html": "./index.html",
     "main.7ba45d37.css.map": "./static/css/main.7ba45d37.css.map",
-    "main.02db6c33.js.map": "./static/js/main.02db6c33.js.map"
+    "main.06545316.js.map": "./static/js/main.06545316.js.map"
   },
   "entrypoints": [
     "static/css/main.7ba45d37.css",
-    "static/js/main.02db6c33.js"
+    "static/js/main.06545316.js"
   ]
 }
