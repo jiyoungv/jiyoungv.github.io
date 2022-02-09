@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.7ba45d37.css",
-    "main.js": "./static/js/main.971a3eb1.js",
+    "main.js": "./static/js/main.89ec0bdf.js",
     "static/media/howto_tablet_bg4.png": "./static/media/howto_tablet_bg4.4b832d4924e119a2d92e.png",
     "static/media/howto_tablet_bg5.png": "./static/media/howto_tablet_bg5.27c4f6daa8fadb3be5df.png",
     "static/media/howto_tablet_bg1.png": "./static/media/howto_tablet_bg1.b2252e1037991d35ff2b.png",
@@ -27,10 +27,10 @@
     "static/media/img_cc_logotype.svg": "./static/media/img_cc_logotype.e6d8958a9d61c6ad507ac20642206adc.svg",
     "index.html": "./index.html",
     "main.7ba45d37.css.map": "./static/css/main.7ba45d37.css.map",
-    "main.971a3eb1.js.map": "./static/js/main.971a3eb1.js.map"
+    "main.89ec0bdf.js.map": "./static/js/main.89ec0bdf.js.map"
   },
   "entrypoints": [
     "static/css/main.7ba45d37.css",
-    "static/js/main.971a3eb1.js"
+    "static/js/main.89ec0bdf.js"
   ]
 }
