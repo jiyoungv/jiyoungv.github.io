@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7ba45d37.css",
+    "main.js": "./static/js/main.fe43fc29.js",
+    "static/media/hero_bg.png": "./static/media/hero_bg.16cb753dd8253b447353.png",
+    "static/media/howto_tablet_bg4.png": "./static/media/howto_tablet_bg4.d39eb8c238f15ab4362b.png",
+    "static/media/hero_bg_tablet.png": "./static/media/hero_bg_tablet.6a34e37a3a8c75df1ecc.png",
+    "static/media/howto_tablet_bg1.png": "./static/media/howto_tablet_bg1.7bcb055d6885cdfff792.png",
+    "static/media/howto_tablet_bg2.png": "./static/media/howto_tablet_bg2.13a3c061cdcf9fc676af.png",
+    "static/media/connect_bg.png": "./static/media/connect_bg.6550f1b8b89173bdfaf6.png",
+    "static/media/howto_mobile_bg2.png": "./static/media/howto_mobile_bg2.9b94d65677f7dddc933f.png",
+    "static/media/howto_mobile_bg1.png": "./static/media/howto_mobile_bg1.32b5d47fdfc204f1f071.png",
+    "static/media/howto_tablet_bg3.png": "./static/media/howto_tablet_bg3.77b8eaabfeaeec71a664.png",
+    "static/media/hero_bg_mobile.png": "./static/media/hero_bg_mobile.8b34d56a3cd35ac75ac2.png",
+    "static/media/howto_mobile_bg4.png": "./static/media/howto_mobile_bg4.c5e6d1c6b5f9f71087e5.png",
+    "static/media/howto_mobile_bg3.png": "./static/media/howto_mobile_bg3.a284411eaae42b29cb9f.png",
+    "static/media/connect_bg_tablet.png": "./static/media/connect_bg_tablet.4b6f336665a368735f3c.png",
+    "static/media/connect_bg_mobile.png": "./static/media/connect_bg_mobile.b2f4d3eaa20092ffe4fe.png",
+    "static/media/Gilroy-ExtraBold.otf": "./static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
+    "static/media/Gilroy-Regular.otf": "./static/media/Gilroy-Regular.86bc2a5a8350170447c9.otf",
+    "static/media/review_type3_mobile_bg.png": "./static/media/review_type3_mobile_bg.79f2a5d448b22f837335.png",
+    "static/media/review_type3_bg.png": "./static/media/review_type3_bg.c90f70a14d2db4ed64dc.png",
+    "static/media/short_mark.png": "./static/media/short_mark.d82ac3df3bbbcf096131.png",
+    "static/media/review_type3_tablet_bg.png": "./static/media/review_type3_tablet_bg.f9ceb4555db2f23a39f3.png",
+    "static/media/img_cc_logotype_brand.svg": "./static/media/img_cc_logotype_brand.e53fb271d18d7d23948ab0d9d92d5c1b.svg",
+    "static/media/img_cc_logotype.svg": "./static/media/img_cc_logotype.e6d8958a9d61c6ad507ac20642206adc.svg",
+    "index.html": "./index.html",
+    "main.7ba45d37.css.map": "./static/css/main.7ba45d37.css.map",
+    "main.fe43fc29.js.map": "./static/js/main.fe43fc29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ba45d37.css",
+    "static/js/main.fe43fc29.js"
+  ]
+}
