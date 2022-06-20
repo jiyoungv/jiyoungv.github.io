@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/test/coffeechat-request220617/static/js/main.8a56705c.js",
+    "main.js": "/test/coffeechat-request220617/static/js/main.d75acf55.js",
     "static/media/img_rocket.svg": "/test/coffeechat-request220617/static/media/img_rocket.f4c8c30e0f61474c208638cb2eacca98.svg",
     "index.html": "/test/coffeechat-request220617/index.html",
     "static/media/icon_information.svg": "/test/coffeechat-request220617/static/media/icon_information.1296ca4bcbf6501ab7aba2b128bea259.svg",
@@ -8,9 +8,9 @@
     "static/media/icon_close.svg": "/test/coffeechat-request220617/static/media/icon_close.42ad96fa59dc5b1e176b3cace8117fa4.svg",
     "static/media/icon_arrow_right.svg": "/test/coffeechat-request220617/static/media/icon_arrow_right.e1d3ff40fcf1b20d79016bf1812d618f.svg",
     "static/media/icon_arrow_down.svg": "/test/coffeechat-request220617/static/media/icon_arrow_down.933d8f229663875ed921d0db9377cb4f.svg",
-    "main.8a56705c.js.map": "/test/coffeechat-request220617/static/js/main.8a56705c.js.map"
+    "main.d75acf55.js.map": "/test/coffeechat-request220617/static/js/main.d75acf55.js.map"
   },
   "entrypoints": [
-    "static/js/main.8a56705c.js"
+    "static/js/main.d75acf55.js"
   ]
 }
