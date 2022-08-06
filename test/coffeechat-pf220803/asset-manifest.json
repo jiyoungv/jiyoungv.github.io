@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "./static/js/main.27159844.js",
+    "static/media/hero_img.png": "./static/media/hero_img.f822268dc35d4fe0b537.png",
+    "static/media/hero_coupon.png": "./static/media/hero_coupon.0e025599d4ac71cba286.png",
+    "static/media/partner_thumbnail3.png": "./static/media/partner_thumbnail3.f9ce2fb2ebb030749349.png",
+    "static/media/partner_thumbnail2.jpg": "./static/media/partner_thumbnail2.5fcf754476b375bb9095.jpg",
+    "static/media/partner_thumbnail1.png": "./static/media/partner_thumbnail1.55f9eb98cb3cfde114e9.png",
+    "static/media/partner_tab_bg.png": "./static/media/partner_tab_bg.5cdc19b7bd915f0cf42b.png",
+    "index.html": "./index.html",
+    "static/media/icon_arrow_left.svg": "./static/media/icon_arrow_left.d84849522b39e7f4b0dfa402de23f490.svg",
+    "static/media/icon_close.svg": "./static/media/icon_close.42ad96fa59dc5b1e176b3cace8117fa4.svg",
+    "main.27159844.js.map": "./static/js/main.27159844.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.27159844.js"
+  ]
+}
