@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Family Test</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="wrap">
+        <section class="preview-section">
+            <div class="preview-title">
+                <h1>Font Family Test</h1>
+                <p>line-height: 150%</p>
+            </div>
+            <div class="preview-content">
+                <h6>· 한글: Noto Sans KR, 영문&amp;숫자: Galano Grotesque</h6>
+                <div class="preview-font preview-font1">
+                    <p class="sentence1"></p>
+                    <p class="sentence2 type2"></p>
+                </div>
+            </div>
+            <div class="preview-content">
+                <h6>· 한글: Noto Sans KR, 영문&amp;숫자: Roboto</h6>
+                <div class="preview-font preview-font2">
+                    <p class="sentence1"></p>
+                    <p class="sentence2 type2"></p>
+                </div>
+            </div>
+            <div class="preview-content">
+                <h6>· 한글: Noto Sans KR, 영문&amp;숫자: Montserrat</h6>
+                <div class="preview-font preview-font3">
+                    <p class="sentence1"></p>
+                    <p class="sentence2 type2"></p>
+                </div>
+            </div>
+            <div class="preview-content">
+                <h6>· 한글: Noto Sans KR, 영문&amp;숫자: Plus Jakarta Sans</h6>
+                <div class="preview-font preview-font4">
+                    <p class="sentence1"></p>
+                    <p class="sentence2 type2"></p>
+                </div>
+            </div>
+            <div class="preview-content">
+                <h6>· 한글: Noto Sans KR, 영문&amp;숫자: Inter</h6>
+                <div class="preview-font preview-font5">
+                    <p class="sentence1"></p>
+                    <p class="sentence2 type2"></p>
+                </div>
+            </div>
+            <div class="preview-content">
+                <h6>· 한글: Noto Sans KR, 영문&amp;숫자: Be Vietnam Pro</h6>
+                <div class="preview-font preview-font6">
+                    <p class="sentence1"></p>
+                    <p class="sentence2 type2"></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+    const sentence1 = '추운 겨울에는 따뜻한 커피와 티를 마셔야지요 The Quick Brown Fox Jumps Over The Lazy Dog 0123456789 !?';
+    const sentence2 = '다람쥐 헌 쳇바퀴에 타고파 Sphinx of black quartz, judge my vow 0123456789 !?';
+
+    $(document).ready(function () {
+        $('.sentence1').text(sentence1);
+        $('.sentence2').text(sentence2);
+    });
+    </script>
+</body>
+</html>
