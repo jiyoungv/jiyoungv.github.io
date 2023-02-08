@@ -10,7 +10,7 @@
 body {font-size: 16px;line-height: 1.5;}
 b {display: inline-block;vertical-align: top;font-weight: 700;}
 
-.preview-section {max-width: 1000px;margin: 20px auto;}
+.preview-section {max-width: 1000px;margin: 0 auto;padding: 20px 0;}
 .preview-title {margin-bottom: 40px;}
 .preview-title > h1 {font-size: 24px;font-weight: 700;}
 .preview-title > p {font-size: 14px;}
