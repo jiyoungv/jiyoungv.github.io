@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>문서 요약 - VAIV 생성 AI Demo</title>
+  <link rel="icon" href="./favicon.ico"/>
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+<div id="wrap">
+    
+  <!-- header -->
+  <header class="header">
+    <div class="header-logo">      
+      <a href="./summary-search.html" title="home">
+        <img src="./image/logo.svg" alt="VAIV" />
+        <span>생성 AI Demo.</span>
+      </a>
+    </div>
+    <nav class="gnb">
+      <ul class="gnb-list">
+        <li class="gnb-item">
+          <a href="./summary-search.html">
+            <i class="ri-search-2-line"></i>
+            <span>검색 요약</span>
+          </a>
+        </li>
+        <li class="gnb-item active">
+          <a href="./summary-doc.html">
+            <i class="ri-article-line"></i>
+            <span>문서 요약</span>
+          </a>
+        </li>
+        <li class="gnb-item">
+          <a href="./create-title.html">
+            <i class="ri-t-box-line"></i>
+            <span>제목 생성</span>
+          </a>
+        </li>
+        <li class="gnb-item">
+          <a href="./create-toc.html">
+            <i class="ri-list-unordered"></i>
+            <span>목차 생성</span>
+          </a>
+        </li>
+        <li class="gnb-item">
+          <a href="./create-question.html">
+            <i class="ri-questionnaire-line"></i>
+            <span>질의 생성</span>
+          </a>
+        </li>
+        <li class="gnb-item">
+          <a href="./create-similar-question.html">
+            <i class="ri-discuss-line"></i>
+            <span>유사질의 생성</span>
+          </a>
+        </li>
+        <li class="gnb-item">
+          <a href="./chat.html">
+            <i class="ri-chat-smile-2-line"></i>
+            <span>대화</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- //header -->
+
+  <!-- container -->
+  <div class="container">
+
+    <!-- contents -->
+    <div class="contents">
+      <section class="desc-section">
+        <img src="./image/img_temp1.jpg" alt="임시 제목 및 설명 부분" />
+      </section>
+
+      <div class="common-divider"></div>
+
+      <section class="query-section">
+        <!-- <div class="common-chip-group">
+          <button type="button" class="common-chip">예시1</button>
+          <button type="button" class="common-chip">예시2</button>
+        </div> -->
+        <form class="query-form">
+          <div class="query-title">
+            <h6>요약 하기</h6>
+          </div>
+          <div>
+            <div class="query-input">
+              <input type="text" class="common-input-text" placeholder="제목을 입력하세요" />
+            </div>
+            <div class="query-input">
+              <textarea class="common-textarea" placeholder="본문을 입력하세요"></textarea>
+            </div>
+          </div>
+          <div class="common-button-group query-submit">
+            <button type="submit" class="common-button round">실행</button>
+          </div>
+        </form>
+
+        <div class="query-output">
+          <div class="query-output-box">
+            <div class="query-title">
+              <h6>요약 결과</h6>
+            </div>
+            <div class="query-output-contents">
+              메타버스 산업의 현황과 미래에 대해 조사한 결과, 메타버스는 현실 세계를 모방한 사회, 경제, 문화 등의 활동이 이루어지는 3차원의 가상세계를 의미하며, 미국 비영리 기술연구재단인 미래가속화연구재단(ASF)은 메타버스의 실현 형태로 증강현실, 라이프로깅, 미러월드, 가상세계 등 4가지를 제시하고 있습니다. 시장 규모는 코로나19의 대유행으로 촉발된 비대면 시장의 확대와 함께 상승하고 있으며, 2030년에는 약 1조5429억 달러에 이를 것으로 예상됩니다. 그러나 기존의 VR, AR 시장을 재포장한 수준이라는 부정적인 의견도 있고, 킬러 앱이 없다는 지적과 너무 엔터테인먼트 쪽에 치우쳐 있다는 비판도 있어, 시장 성장에 대한 우려도 존재합니다.
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+    <!-- //contents -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>ⓒ 2023 VAIV Company inc.</p>
+    </footer>
+    <!-- //footer -->
+
+  </div>
+  <!-- //container -->
+
+</div>
+
+</body>
+</html>
