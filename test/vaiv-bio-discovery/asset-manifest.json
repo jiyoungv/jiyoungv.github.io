@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.629addcc.css",
+    "main.js": "/static/js/main.979d5ce5.js",
+    "index.html": "/index.html",
+    "static/media/logo_vaiv.svg": "/static/media/logo_vaiv.29351ff8522f913df29b62bb57579700.svg",
+    "main.629addcc.css.map": "/static/css/main.629addcc.css.map",
+    "main.979d5ce5.js.map": "/static/js/main.979d5ce5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.629addcc.css",
+    "static/js/main.979d5ce5.js"
+  ]
+}
