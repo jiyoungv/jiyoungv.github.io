@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.629addcc.css",
-    "main.js": "/static/js/main.979d5ce5.js",
-    "index.html": "/index.html",
-    "static/media/logo_vaiv.svg": "/static/media/logo_vaiv.29351ff8522f913df29b62bb57579700.svg",
-    "main.629addcc.css.map": "/static/css/main.629addcc.css.map",
-    "main.979d5ce5.js.map": "/static/js/main.979d5ce5.js.map"
+    "main.css": "/test/static/css/main.629addcc.css",
+    "main.js": "/test/static/js/main.b3a55e8b.js",
+    "index.html": "/test/index.html",
+    "static/media/logo_vaiv.svg": "/test/static/media/logo_vaiv.29351ff8522f913df29b62bb57579700.svg",
+    "main.629addcc.css.map": "/test/static/css/main.629addcc.css.map",
+    "main.b3a55e8b.js.map": "/test/static/js/main.b3a55e8b.js.map"
   },
   "entrypoints": [
     "static/css/main.629addcc.css",
-    "static/js/main.979d5ce5.js"
+    "static/js/main.b3a55e8b.js"
   ]
 }
