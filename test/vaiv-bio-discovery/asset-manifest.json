@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/test/vaiv-bio-discovery/static/css/main.629addcc.css",
-    "main.js": "/test/vaiv-bio-discovery/static/js/main.a0685f4b.js",
-    "index.html": "/test/vaiv-bio-discovery/index.html",
-    "static/media/logo_vaiv.svg": "/test/vaiv-bio-discovery/static/media/logo_vaiv.29351ff8522f913df29b62bb57579700.svg",
-    "main.629addcc.css.map": "/test/vaiv-bio-discovery/static/css/main.629addcc.css.map",
-    "main.a0685f4b.js.map": "/test/vaiv-bio-discovery/static/js/main.a0685f4b.js.map"
+    "main.css": "./static/css/main.629addcc.css",
+    "main.js": "./static/js/main.24a1480e.js",
+    "index.html": "./index.html",
+    "static/media/logo_vaiv.svg": "./static/media/logo_vaiv.29351ff8522f913df29b62bb57579700.svg",
+    "main.629addcc.css.map": "./static/css/main.629addcc.css.map",
+    "main.24a1480e.js.map": "./static/js/main.24a1480e.js.map"
   },
   "entrypoints": [
     "static/css/main.629addcc.css",
-    "static/js/main.a0685f4b.js"
+    "static/js/main.24a1480e.js"
   ]
 }
