@@ -1,0 +1,137 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+/* CSS Document */
+
+/* 초기화 */
+a,p,h1,h2,h3,h4,h5,h6 {
+	text-decoration: none; 
+	color: #999999;
+	padding: 0;
+}
+ul,li {
+	list-style: none; color: #999999;
+	padding: 0;
+}
+img {
+	border: 0;
+}
+body {
+	font-family: 'Muli', sans-serif;
+	padding: 0; margin: 0;
+}
+.ir { 
+	width: 0; height: 0; font-size: 0; line-height: 0; 
+	overflow: hidden; 
+}
+
+
+
+/* left */
+.left {
+	float: left;
+	width: 100px; height: 700px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.logo {
+	display: block;
+	margin-bottom: 120px;
+}
+.logo_img {
+	width: 100px; height: 100px;
+	background: linear-gradient(#f066a5 5%, #61a644 30%);	
+}
+.logo_img_hover_2 { 
+   background: linear-gradient(#f066a5 70% , #61a644);
+}
+.logo_img:hover {
+	background: linear-gradient(#f066a5, #61a644);
+}
+
+.nav {
+	margin-bottom: 350px;
+}
+.nav li {
+	margin-bottom: 20px;
+}
+.nav li a {}
+.nav .nav_1{
+	color: #62a60e;
+}
+.nav .nav_2:hover {
+	color: #f066a5;
+}
+.nav .nav_3:hover {
+	color: #62a60e;
+}
+.footer {
+	font-size: 12px;
+}
+
+
+/* center */
+.center_bg {
+	float: left;
+	margin-top: 50px;
+	width: 85.28%;
+	overflow: hidden;
+}
+.center {
+	width: 770px;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+.center_img {
+	width: 380px;
+	float: left;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.center_img img {
+	width: 100%;
+}
+
+.center_txt {
+	float: left;
+}
+.center_txt ul {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 18px;
+}
+.center_txt ul li {
+	line-height: 30px;
+}
+.center_txt ul li:nth-child(1) {
+	font-size: 30px;
+	color: #62a60e;
+	margin-bottom: 25px;
+}
+.center_txt ul li:nth-child(2) {
+	margin-bottom: 30px;
+}
+.center_txt ul li:nth-child(3) {
+	
+}
+.center_txt ul li:nth-child(4) {
+	margin-bottom: 30px;
+}
+
+
+/* right */
+.right_bg {
+	float: right;
+	width: 80px; height: 700px;
+}
+.right {
+	transform: rotate(90deg);
+	position: absolute; top: 330px; right: 0;	
+}
+.right p {
+	color: #62a60e;
+	border-bottom: 7px solid #62a60e;
+	font-size: 35px;
+	margin: 0;
+}

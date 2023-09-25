@@ -1,0 +1,94 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+/* CSS Document */
+
+/* 초기화 */
+a,p,h1,h2,h3,h4,h5,h6 {
+	text-decoration: none; 
+	color: #999999;
+	padding: 0;
+}
+ul,li {
+	list-style: none; color: #999999;
+	padding: 0;
+}
+img {
+	border: 0;
+}
+body {
+	font-family: 'Muli', sans-serif;
+	padding: 0; margin: 0;
+}
+.ir { 
+	width: 0; height: 0; font-size: 0; line-height: 0; 
+	overflow: hidden; 
+}
+
+
+/* left */
+.left {
+	float: left;
+	width: 100px; height: 700px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.logo {
+	display: block;
+	margin-bottom: 120px;
+}
+.logo_img {
+	width: 100px; height: 100px;
+	background: linear-gradient(#f066a5, #61a644);	
+}
+
+.nav {
+	margin-bottom: 350px;
+}
+.nav li {
+	margin-bottom: 20px;
+}
+.nav li a {}
+.nav .nav_1:hover {
+	color: #62a60e;
+}
+.logo_img_hover_1 { 
+   background: linear-gradient(#f066a5 5%, #61a644 30%);
+}
+.logo_img_hover_2 { 
+   background: linear-gradient(#f066a5 70% , #61a644 );
+}
+.nav .nav_2:hover {
+	color: #f066a5;
+}
+.nav .nav_3:hover {
+	color: #62a60e;
+}
+.footer {
+	font-size: 12px;
+}
+
+/* center */
+.center {
+	float: left;
+	margin-top: 50px;
+	width: 88.5%; 
+	text-align: center;
+	position: relative;
+}
+.center img {
+	width: 85%;
+	margin-top: 30px;
+}
+/*
+.center .main_2 {
+	position: absolute; top: 0; left: 7.5%;
+	opacity: 0;
+	transition-duration: 0.8s;
+}
+.center:hover .main_2 {
+	opacity: 1;
+}
+*/
