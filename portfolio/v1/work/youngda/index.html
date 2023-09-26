@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="jiyoung_park"> 
+ 	<meta name="description" content="영다 프로젝트 사이트">
+ 	<meta name="keyword" content="영화,프로젝트,다운로드">
+
+	<title>모든 영화를 한 눈에, 영다</title>
+
+	<!--css-->
+	<link rel="stylesheet" href="css/index.css" type="text/css">
+
+	<!--favicon-->
+	<link rel="shortcut icon" href="img/favicon.ico">
+
+</head>
+
+<body>
+
+	<!--header_start-->
+	<header id="header">
+		<div class="header">
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+			</div>
+			<div class="about">
+				<img src="img/about.png" alt="about">
+				<a href="html/about.html" title="영다 알아보기">소개</a>
+			</div>
+			<div class="login">
+				<a href="html/my.html" title="로그인을 하려면 클릭하세요">로그인</a>
+			</div>
+		</div>
+	</header>
+
+	<!--search_start-->
+	<div class="search">
+		<div class="search_bg"></div>
+		<input type="text" name="search" id="search_input" placeholder="&nbsp;아무거나 검색해보세요. 영다가 찾아드립니다. 예) 1980년대 영화, 재미있는 영화, 음식 영화">
+		<a class="ir" id="search_btn" href="html/search.html">버튼</a>
+	</div>
+
+	<!--recom_start-->
+	<div class="recom">
+		<a href="#recom" class="recom scroll"><img src="img/recom.png" alt="recommend"></a>
+	</div>
+
+
+	<!--section_start-->
+	<section id="recom">
+
+		<!--content01_start-->
+		<article class="content01">
+
+			<!--tab_start-->
+			<ul class="tab">
+				<li><a href="#" class="tab_new">NEW</a></li>
+				<li><a href="#" class="tab_best">BEST</a></li>
+				<li><a href="#" class="tab_steady">STEADY</a></li>
+			</ul>
+			
+			<!--new_start-->
+			<div class="new tab_box">
+				<div class="new_circle">
+					<p class="new_crc_left">●</p>
+					<p class="new_crc_right">●</p>
+				</div>				
+				<div class="new_button">
+					<button class="new_bt_left">&lt;</button>
+					<button class="new_bt_right">&gt;</button>
+				</div>				
+				<div class="new_01 tab_content tab_left">
+					<ul class="movie">
+						<li class="number">1</li>
+						<li class="poster">
+							<a href="html/search.html">
+								<img src="img/new_1.jpg" alt="movie_poster">
+								<div class="poster_hover"><span>+</span><br>상세보기</div>
+							</a>
+						</li>
+						<li class="movie_name">레디 플레이어 원</li>
+						<li class="rating"><img src="img/rating_4.8.png" alt="rating"></li>
+						<li class="cost">원스토어 <span>3,000원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">2</li>
+						<li class="poster">
+							<a href="html/search.html#new_2">
+								<img src="img/new_2.jpg" alt="movie_poster">
+								<div class="poster_hover"><span>+</span><br>상세보기</div>
+							</a>
+						</li>
+						<li class="movie_name">콜 미 바이 유어 네임</li>
+						<li class="rating"><img src="img/rating_4.7.png" alt="rating"></li>
+						<li class="cost">무비라이크 <span>3,500원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">3</li>
+						<li class="poster"><a href="html/search.html"><img src="img/new_3.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">소공녀</li>
+						<li class="rating"><img src="img/rating_4.5.png" alt="rating"></li>
+						<li class="cost">굿영화 <span>2,500원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">4</li>
+						<li class="poster"><a href="html/search.html"><img src="img/new_4.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">플로리다 프로젝트</li>
+						<li class="rating"><img src="img/rating_4.3.png" alt="rating"></li>
+						<li class="cost">씨네투 <span>2,300원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">5</li>
+						<li class="poster"><a href="html/search.html"><img src="img/new_5.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">해피 어게인</li>
+						<li class="rating"><img src="img/rating_4.1.png" alt="rating"></li>
+						<li class="cost">N스토어 <span>3,000원</span></li>
+					</ul>
+				</div>
+
+				<div class="new_02 tab_content tab_right">
+					<ul class="movie">
+						<li class="number">6</li>
+						<li class="poster">
+							<a href="html/search.html">
+								<img src="img/new_6.jpg" alt="movie_poster">
+								<div class="poster_hover"><span>+</span><br>상세보기</div>
+							</a>
+						</li>
+						<li class="movie_name">레이디 버드</li>
+						<li class="rating"><img src="img/rating_4.8.png" alt="rating"></li>
+						<li class="cost">무비라이크 <span>2,800원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">7</li>
+						<li class="poster"><a href="html/search.html"><img src="img/new_7.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">달링</li>
+						<li class="rating"><img src="img/rating_4.7.png" alt="rating"></li>
+						<li class="cost">원스토어 <span>3,000원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">8</li>
+						<li class="poster"><a href="html/search.html"><img src="img/new_8.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">콜럼버스</li>
+						<li class="rating"><img src="img/rating_4.5.png" alt="rating"></li>
+						<li class="cost">씨네원 <span>3,500원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">9</li>
+						<li class="poster"><a href="html/search.html"><img src="img/new_9.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">수성못</li>
+						<li class="rating"><img src="img/rating_4.3.png" alt="rating"></li>
+						<li class="cost">N스토어 <span>2,800원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">10</li>
+						<li class="poster"><a href="html/search.html"><img src="img/new_10.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">리틀 포레스트 2</li>
+						<li class="rating"><img src="img/rating_4.1.png" alt="rating"></li>
+						<li class="cost">원스토어 <span>1,800원</span></li>
+					</ul>					
+				</div>
+			</div>
+			
+			<!--best_start-->
+			<div class="best tab_box">
+				<div class="best_circle">
+					<p class="best_crc_left">●</p>
+					<p class="best_crc_right">●</p>					
+				</div>				
+				<div class="best_button">
+					<button class="best_bt_left">&lt;</button>
+					<button class="best_bt_right">&gt;</button>
+				</div>				
+				<div class="best_01 tab_content tab_left">
+					<ul class="movie">
+						<li class="number">1</li>
+						<li class="poster">
+							<a href="html/search.html#best_1">
+								<img src="img/best_1.jpg" alt="movie_poster">
+								<div class="poster_hover"><span>+</span><br>상세보기</div>
+							</a>
+						</li>
+						<li class="movie_name">문라이즈 킹덤</li>
+						<li class="rating"><img src="img/rating_4.8.png" alt="rating"></li>
+						<li class="cost">N스토어 <span>1,000원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">2</li>
+						<li class="poster"><a href="html/search.html#best_2"><img src="img/best_2.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">포레스트 검프</li>
+						<li class="rating"><img src="img/rating_4.7.png" alt="rating"></li>
+						<li class="cost">원스토어 <span>2,500원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">3</li>
+						<li class="poster"><a href="html/search.html#best_3"><img src="img/best_3.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">매트릭스 1</li>
+						<li class="rating"><img src="img/rating_4.5.png" alt="rating"></li>
+						<li class="cost">영화모아 <span>1,500원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">4</li>
+						<li class="poster"><a href="html/search.html"><img src="img/best_4.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">베스트오퍼</li>
+						<li class="rating"><img src="img/rating_4.3.png" alt="rating"></li>
+						<li class="cost">씨네큐 <span>2,000원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">5</li>
+						<li class="poster"><a href="html/search.html"><img src="img/best_5.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">내가 사는 피부</li>
+						<li class="rating"><img src="img/rating_4.1.png" alt="rating"></li>
+						<li class="cost">원스토어 <span>2,300원</span></li>
+					</ul>
+				</div>
+
+				<div class="best_02 tab_content tab_right">
+					<ul class="movie">
+						<li class="number">6</li>
+						<li class="poster">
+							<a href="html/search.html">
+								<img src="img/best_6.jpg" alt="movie_poster">
+								<div class="poster_hover"><span>+</span><br>상세보기</div>
+							</a>
+						</li>
+						<li class="movie_name">아멜리에</li>
+						<li class="rating"><img src="img/rating_4.8.png" alt="rating"></li>
+						<li class="cost">N스토어 <span>1,000원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">7</li>
+						<li class="poster"><a href="html/search.html"><img src="img/best_7.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">이웃집 토토로</li>
+						<li class="rating"><img src="img/rating_4.7.png" alt="rating"></li>
+						<li class="cost">원스토어 <span>2,500원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">8</li>
+						<li class="poster"><a href="html/search.html"><img src="img/best_8.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">007 스카이폴</li>
+						<li class="rating"><img src="img/rating_4.5.png" alt="rating"></li>
+						<li class="cost">영화모아 <span>1,500원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">9</li>
+						<li class="poster"><a href="html/search.html"><img src="img/best_9.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">바닐라 스카이</li>
+						<li class="rating"><img src="img/rating_4.3.png" alt="rating"></li>
+						<li class="cost">씨네큐 <span>2,000원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">10</li>
+						<li class="poster"><a href="html/search.html"><img src="img/best_10.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">카모메 식당</li>
+						<li class="rating"><img src="img/rating_4.1.png" alt="rating"></li>
+						<li class="cost">원스토어 <span>2,300원</span></li>
+					</ul>					
+				</div>
+			</div>
+			
+			<!--steady_start-->
+			<div class="steady tab_box">
+				<div class="steady_circle">
+					<p class="steady_crc_left">●</p>
+					<p class="steady_crc_right">●</p>					
+				</div>				
+				<div class="steady_button">
+					<button class="steady_bt_left">&lt;</button>
+					<button class="steady_bt_right">&gt;</button>
+				</div>				
+				<div class="steady_01 tab_content tab_left">
+					<ul class="movie">
+						<li class="number">1</li>
+						<li class="poster"><a href="html/search.html"><img src="img/steady_1.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">시네마 천국</li>
+						<li class="rating"><img src="img/rating_4.8.png" alt="rating"></li>
+						<li class="cost">무비라이크 <span>2,800원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">2</li>
+						<li class="poster"><a href="html/search.html#steady_2"><img src="img/steady_2.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">매디슨 카운티의 다리</li>
+						<li class="rating"><img src="img/rating_4.7.png" alt="rating"></li>
+						<li class="cost">원스토어 <span>3,000원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">3</li>
+						<li class="poster"><a href="html/search.html"><img src="img/steady_3.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">반지의 제왕 1</li>
+						<li class="rating"><img src="img/rating_4.5.png" alt="rating"></li>
+						<li class="cost">씨네원 <span>3,500원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">4</li>
+						<li class="poster"><a href="html/search.html"><img src="img/steady_4.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">타이타닉</li>
+						<li class="rating"><img src="img/rating_4.3.png" alt="rating"></li>
+						<li class="cost">N스토어 <span>2,800원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">5</li>
+						<li class="poster"><a href="html/search.html"><img src="img/steady_5.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">아바타</li>
+						<li class="rating"><img src="img/rating_4.1.png" alt="rating"></li>
+						<li class="cost">원스토어 <span>1,800원</span></li>
+					</ul>							
+				</div>
+
+				<div class="steady_02 tab_content tab_right">
+					<ul class="movie">
+						<li class="number">6</li>
+						<li class="poster"><a href="html/search.html"><img src="img/steady_6.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">해리포터 1</li>
+						<li class="rating"><img src="img/rating_4.8.png" alt="rating"></li>
+						<li class="cost">N스토어 <span>4,500원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">7</li>
+						<li class="poster"><a href="html/search.html"><img src="img/steady_7.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">트루먼 쇼</li>
+						<li class="rating"><img src="img/rating_4.7.png" alt="rating"></li>
+						<li class="cost">무비유 <span>1,100원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">8</li>
+						<li class="poster"><a href="html/search.html"><img src="img/steady_8.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">싸이코</li>
+						<li class="rating"><img src="img/rating_4.5.png" alt="rating"></li>
+						<li class="cost">씨네원 <span>1,500원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">9</li>
+						<li class="poster"><a href="html/search.html"><img src="img/steady_9.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">어벤져스 1</li>
+						<li class="rating"><img src="img/rating_4.3.png" alt="rating"></li>
+						<li class="cost">원스토어 <span>3,800원</span></li>
+					</ul>
+					<ul class="movie">
+						<li class="number">10</li>
+						<li class="poster"><a href="html/search.html"><img src="img/steady_10.jpg" alt="movie_poster"><div class="poster_hover"><span>+</span><br>상세보기</div></a></li>
+						<li class="movie_name">길버트 그레이프</li>
+						<li class="rating"><img src="img/rating_4.1.png" alt="rating"></li>
+						<li class="cost">무비라이크 <span>1,000원</span></li>
+					</ul>								
+				</div>
+			</div>	
+
+		</article>
+
+		<!--content02_start-->
+		<article class="content02">
+			<div class="con02_head">
+				<p class="con02_head_txt">FREE</p>
+			</div>
+			<div class="con02_box01">
+				<div class="con02_box01_pst">
+					<a href="html/search.html#free_1">
+						<img src="img/free_1.jpg" alt="free_movie">
+						<div class="free_pst">
+							<span>+</span><br>상세보기
+						</div>
+					</a>
+				</div>
+				<div class="con02_box01_txt">
+					<ul>
+						<li>행복 목욕탕</li>
+						<li><img src="img/rating_4.0.png" alt="rating"></li>
+						<li>모든 가족이 가지고 있는 것,</li>
+						<li>‘비밀’, ‘사랑’, ‘슬픔’, ‘행복’</li>
+						<li>하지만 우리 가족에게는 다른 가족보다</li>
+						<li>더욱 큰 비밀과 뜨거운 사랑, 깊은 슬픔,</li>
+						<li>그리고 따스한 행복이 있습니다.</li>
+						<li>지금, N스토어에서 <span>무료</span> <span>(4/1~4/30)</span></li>
+						<li><a href="html/search.html#free_1">다운로드</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="con02_box02">
+				<div class="con02_box02_pst">
+					<a href="html/search.html#free_2">
+						<img src="img/free_2.jpg" alt="free_movie">
+						<div class="free_pst">
+							<span>+</span><br>상세보기
+						</div>
+					</a>
+				</div>	
+				<div class="con02_box02_txt">
+					<ul>
+						<li>바닷마을 다이어리</li>
+						<li><img src="img/rating_4.0.png" alt="rating"></li>
+						<li>조그마한 바닷가 마을에 살고 있는 세 자매는</li>
+						<li>15년 전 집을 떠난 아버지의 장례식장으로 향한다.</li>
+						<li>아버지에 대한 미움도, 추억도 어느덧 희미해졌지만</li>
+						<li>홀로 남겨진 이복 여동생 '스즈'가 마음이 쓰이는데..</li>
+						<li>“스즈, 우리랑 같이 살래? 넷이서…”</li>
+						<li>지금, 원스토어에서 <span>무료</span> <span>(4/1~4/30)</span></li>
+						<li><a href="html/search.html#free_2">다운로드</a></li>
+					</ul>
+				</div>							
+			</div>
+		</article>
+		
+		<!--content03_start-->
+		<article class="content03">
+			<div class="con03_head">
+				<p class="con03_head_txt">EVENT</p>
+			</div>
+			<div class="con03_box01">
+				<a href="#">
+					<img src="img/event_bn_1.jpg" alt="event">
+					<div class="event_hover">
+						<span>+</span><br>이벤트 상세보기
+					</div>					
+				</a>
+			</div>
+			<div class="con03_box02">
+				<a href="#">
+					<img src="img/event_bn_2.jpg" alt="event">
+					<div class="event_hover">
+						<span>+</span><br>이벤트 상세보기
+					</div>									
+				</a>				
+			</div>
+			<div class="con03_box03">
+				<a href="#">
+					<img src="img/event_bn_3.jpg" alt="event">
+					<div class="event_hover">
+						<span>+</span><br>이벤트 상세보기
+					</div>									
+				</a>				
+			</div>	
+			<div class="con03_box04">
+				<a href="#">
+					<img src="img/event_bn_4.jpg" alt="event">
+					<div class="event_hover">
+						<span>+</span><br>이벤트 상세보기
+					</div>									
+				</a>				
+			</div>										
+		</article>
+			
+	</section>
+
+
+	<!--top_btn_start-->
+	<div class="top">
+		<a href="#header" class="top_btn scroll">
+			<span>&nbsp;↑&nbsp;&nbsp;</span><br>TOP
+		</a>
+	</div>
+
+
+	<!--footer_start-->
+	<footer>
+		<div class="ft_01">
+			<div class="ft_01_left">
+				<ul>
+					<li><a href="html/about.html" title="영다 소개">소개</a></li>
+					<li><a href="#" title="my menu">My Menu</a></li>
+					<li><a href="#" title="개인정보취급방침">개인정보취급방침</a></li>
+				</ul>
+			</div>
+			<div class="ft_01_logo">
+				<a href="#"><img src="img/logo_white.png" alt="logo_white"></a>
+			</div>
+			<div class="ft_01_right">
+				<ul>
+					<li>(주)영다</li>
+					<li>contact</li>
+					<li>박지영 010-4759-9834</li>
+					<li><a href="http://mail.naver.com/login" target="blank" title="이메일 쓰기">parkjeyc@naver.com</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="ft_02">
+			<a href="#"><img src="img/sns_insta.png" alt="instagram" title="instagram"></a>
+			<a href="#"><img src="img/sns_facebook.png" alt="facebook" title="facebook"></a>
+		</div>
+		<div class="ft_03">
+			<p>모든 영화, 다운받을 수 있습니다.</p>
+		</div>
+		<div class="ft_04">
+			<p>Copyright ©  YoungDa. 2018. All Rights Reserved.</p>
+			<p class="web_html">
+				<a href="https://validator.kldp.org/check?uri=referer" onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))">
+				    <img src="https://validator.kldp.org/w3cimgs/validate/html5-orange.png" alt="Valid HTML 5" height="15" width="80">
+				</a>	
+			</p>
+			<p class="web_css"> 
+			    <a href="http://css-validator.kldp.org/check/referer">
+			        <img style="border:0;width:80px;height:15px"
+			            src="http://css-validator.kldp.org/images/validate/css-orange"
+			            alt="올바른 CSS입니다!" />
+			    </a>
+			</p>						
+		</div>
+	
+
+	</footer>
+
+
+
+
+<!--jquery_start-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		
+		// search_enter
+
+		// content01
+		$(".best_bt_right").click(function() {
+			$(".best_crc_left").css("opacity", "0.3");
+			$(".best_crc_right").css("opacity", "1");
+			$(".best_bt_left").css("opacity", "1");
+			$(".best_bt_right").css("opacity", "0.3");
+			$(".best_01").css("display", "none");
+			$(".best_02").fadeIn("slow");
+		});
+		$(".best_bt_left").click(function() {
+			$(".best_crc_left").css("opacity", "1");
+			$(".best_crc_right").css("opacity", "0.3");
+			$(".best_bt_left").css("opacity", "0.3");
+			$(".best_bt_right").css("opacity", "1");			
+			$(".best_01").fadeIn("slow");
+			$(".best_02").css("display", "none");
+		});
+		$(".new_bt_right").click(function() {
+			$(".new_crc_left").css("opacity", "0.3");
+			$(".new_crc_right").css("opacity", "1");
+			$(".new_bt_left").css("opacity", "1");
+			$(".new_bt_right").css("opacity", "0.3");
+			$(".new_01").css("display", "none");
+			$(".new_02").fadeIn("slow");
+		});
+		$(".new_bt_left").click(function() {
+			$(".new_crc_left").css("opacity", "1");
+			$(".new_crc_right").css("opacity", "0.3");
+			$(".new_bt_left").css("opacity", "0.3");
+			$(".new_bt_right").css("opacity", "1");			
+			$(".new_01").fadeIn("slow");
+			$(".new_02").css("display", "none");
+		});		
+		$(".steady_bt_right").click(function() {
+			$(".steady_crc_left").css("opacity", "0.3");
+			$(".steady_crc_right").css("opacity", "1");
+			$(".steady_bt_left").css("opacity", "1");
+			$(".steady_bt_right").css("opacity", "0.3");
+			$(".steady_01").css("display", "none");
+			$(".steady_02").fadeIn("slow");
+		});
+		$(".steady_bt_left").click(function() {
+			$(".steady_crc_left").css("opacity", "1");
+			$(".steady_crc_right").css("opacity", "0.3");
+			$(".steady_bt_left").css("opacity", "0.3");
+			$(".steady_bt_right").css("opacity", "1");			
+			$(".steady_01").fadeIn("slow");
+			$(".steady_02").css("display", "none");
+		});			
+
+		$(".tab_new").mouseover(function() {
+			$(".new").fadeIn("slow");
+			$(".best").css("display", "none");
+			$(".steady").css("display", "none");
+			$(".tab_new").css("opacity", "1");
+			$(".tab_best").css("opacity", "0.5");
+			$(".tab_steady").css("opacity", "0.5");
+		});
+		$(".tab_best").mouseover(function() {
+			$(".new").css("display", "none");
+			$(".best").fadeIn("slow");
+			$(".steady").css("display", "none");
+			$(".tab_new").css("opacity", "0.5");
+			$(".tab_best").css("opacity", "1");
+			$(".tab_steady").css("opacity", "0.5");			
+		});	
+		$(".tab_steady").mouseover(function() {
+			$(".new").css("display", "none");
+			$(".best").css("display", "none");
+			$(".steady").fadeIn("slow");
+			$(".tab_new").css("opacity", "0.5");
+			$(".tab_best").css("opacity", "0.5");
+			$(".tab_steady").css("opacity", "1");				
+		});	
+
+
+		//section_recom_button
+		$(".recom").click(function() {
+			$("section").slideDown("slow");
+		});
+
+	});
+
+    $(document).ready(function() { 
+	    $("a.scroll").anchorAnimate() 
+	}); 
+	jQuery.fn.anchorAnimate = function(settings) { 
+		settings = jQuery.extend({ 
+	    speed : 1000 
+	    }, settings);     
+	    return this.each(function(){ 
+	    var caller = this 
+	    $(caller).click(function (event) {     
+	    event.preventDefault() 
+	    var locationHref = window.location.href 
+	    var elementClick = $(caller).attr("href") 
+	    var destination = $(elementClick).offset().top; 
+	    $("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination}, settings.speed, function()  
+	    { 
+	    window.location.hash = elementClick 
+	    }); 
+	     return false; 
+	    }) 
+	    }) 
+	} 	
+</script>
+
+</body>
+
+</html>

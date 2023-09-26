@@ -1,0 +1,480 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+/*ir*/
+.ir { 
+	width: 0; height: 0; font-size: 0; line-height: 0; overflow: hidden; 					    position: absolute; left: 0; top: 0; 
+}
+
+/* layout */
+#wrap {
+	width:100%; height:100%;
+}
+#gnb_bg {
+	width:100%; height:32px; background-color:#666666;
+}
+#gnb_bg:hover { background-color:#999;}
+#header_bg {
+	width:100%; height:109px;
+	overflow:hidden;
+}
+#nav_bg {
+	width:100%; height:56px;
+}
+#main_bg {
+	width:100%; 
+}
+#footer_bg {
+	width:100%; height:200px;
+}
+#gnb {
+	width:944px; height:32px;
+	margin:0 auto;
+}
+#header {
+	width:944px; height:109px;
+	margin:0 auto;
+	position:relative;
+}
+#nav {
+	width:944px; height:56px;
+	margin:0 auto;	
+	border-top:3px solid #000;
+}
+#main {
+	width:944px;
+	margin:0 auto;
+}
+#footer {
+	width:944px; height:200px;
+	margin:0 auto;
+	border-top: 3px solid #000;
+	box-sizing: border-box;
+	margin-top:100px;
+	margin-bottom: 40px;
+}
+
+/* gnb */
+#gnb h6 {
+	float:left; margin:9px 0;
+}
+#gnb h6 a {
+	color:#FFF; font-size:12px;
+}
+#gnb h6 a:hover {
+	color:#FF33FF;
+}
+#gnb h6 span {
+	width:20px; height:10px;
+	display:inline-block;
+	background:url(../images/icons.png) no-repeat -345px 2px;
+}
+#gnb ul {
+	float:right;
+}
+#gnb ul li {
+	float:left;
+	line-height:32px;
+	margin-left:10px;
+}
+#gnb ul li a {
+	color:#fff;
+	padding:0 5px;
+}
+#gnb ul li a:hover {
+	color:#FF33FF;
+}
+
+#gnb ul li span {
+	width:15px; height:10px;
+	display:inline-block;
+	background:url(../images/icons.png) no-repeat 0 0;
+	margin-left:3px;
+}
+#gnb ul li:nth-child(3) span {
+	background-position:-299px 0;
+	position:relative; top:2px;
+}
+#gnb ul li:nth-child(4) span {
+	background-position:-200px 0;
+	position:relative; top:2px;
+}
+#gnb ul li:nth-child(6) span {
+	background-position:-250px 0;
+	position:relative; top:2px;
+}
+
+/* 
+[ 이미지를 표현하는 방법 ]
+1. HTML 태그를 통해서 표현하는 방법. (의미가 있는 이미지) (+alt)
+2. CSS 속성을 통해서 표현하는 방법. (의미가 없는 이미지)
+3. 이미지 스프라이트 방법 (일종의 아이콘에 많이 쓰임)
+*/
+
+/* header */
+#header .menu {
+	width:300px; height:35px; 
+	position:absolute; top:55px; left:0;
+}
+#header .menu ul {
+	overflow:hidden;
+}
+#header .menu ul li {
+	float:left;
+}
+#header .menu ul li a {
+	display:block;
+	color:#666666;
+	padding:0 10px;
+	border-right:1px solid #666;
+	line-height:12px;
+}
+#header .menu ul li:first-child a {
+	padding-left:0;	
+}
+#header .menu ul li:last-child a {
+	border:none;
+}
+#header .menu ul li a:hover {
+	color:#FF33FF;
+}
+
+#header .logo {
+	width:190px; height:45px;
+	position:absolute; top:32px; left:365px;
+	font-size:42px;
+	font-family: 'Luckiest Guy', cursive;
+}
+#header .logo span {
+	color:#666666;
+}
+
+
+#header .search {
+	width:260px; height:35px;
+	position:absolute; top:35px; right:0;
+}
+#header .search .search_box {
+	width:222px; height:33px;
+	position:absolute; top:0; left:0;
+}
+#header .search button {
+	width:34px; height:39px;
+	background:#FF33FF url(../images/icon_search.png) no-repeat center; 
+	background-size:80%;
+	text-indent:-10000px;
+	position:absolute; top:0; right:0;
+	border:0;
+}
+
+/* nav */
+#nav ul {
+	margin:0 auto; margin-top:20px; 
+	overflow:hidden;
+}
+#nav ul li {
+	float:left;
+	font-weight:bold
+}
+#nav ul li a {
+	display:block;
+	padding:0px 27px;	
+}
+#nav ul li a:hover {
+	color:#FF33FF;
+}
+
+/* main */
+/* main_banner_area */
+.main_banner_area {
+	width:944px; height:456px;
+}
+.main_left {
+	width:624px; height:456px;
+	float:left;
+	margin-right:16px;
+}
+.main_right {
+	width:304px; height:456px;
+	float:left; overflow:hidden;
+}
+.main_right .feature_item {
+	width:304px; height:304px;
+	margin-bottom:16px;
+	border:1px solid #999999;
+	box-sizing:border-box;
+}
+.main_right .main_event {
+	width:304px; height:136px;
+}
+
+.main_right .feature_item h3 {
+	text-align:center;
+	text-transform:uppercase;
+	font-size:1.5em;
+	line-height:2.3em;
+}
+.main_right .feature_item .feature_img {
+	text-align:center;
+	margin-bottom:20px;
+}
+.main_right .main_event {
+	width:304px; height:136px;
+	background:url(../images/main_event.png) no-repeat;
+}
+
+/* txt */
+.txt {
+	text-align:center;
+}
+.txt ul {}
+.txt ul li {
+	margin-bottom:3px;
+}
+.txt ul li:first-child {
+	font-weight:bold;
+}
+.txt ul li:nth-child(2) {
+	color:#666666;
+} 
+.txt ul li span.money {
+	font-weight:bold;
+	margin-right:8px;
+}
+.txt ul li span.cancel {
+	text-decoration:line-through;
+	color:#666666;
+}
+
+/* title */
+.title {
+	width: 944px; height: 49px;
+	text-align:center;
+	border-top:3px solid #000;
+	box-sizing: border-box;
+}
+.title h2 {
+	letter-spacing:3px;
+	font-size:2.2em;
+	line-height:49px;
+}
+
+/* special_picks_box */
+.special_picks_box {
+	width: 944px; height: 410px;
+	margin-top: 20px;
+}
+.special_picks_box .picks_menu {
+	width: 944px; height: 45px;
+	border-top: 2px dotted #666;
+}
+.special_picks_box .picks_menu ul {
+	width: 944px; height: 45px;
+	border-top: 2px dotted #666;
+
+}
+.special_picks_box .picks_menu ul li {
+	float: left;
+	padding: 0 15px;
+}
+.special_picks_box .picks_menu ul li:first-child {
+	margin-left: 250px;
+}
+.special_picks_box .picks_menu ul li a {
+	display: block;
+	padding-top: 12px;
+	position: relative;
+}
+.special_picks_box .picks_menu ul li a:hover {
+	color: #FF33FF;
+	border-top: 2px solid #FF33FF;
+	position: relative; top: -2px;
+}
+/* border로 삼각형 만들기! */
+.special_picks_box .picks_menu ul li a span:before {
+	content: "";
+	border-top: 5px solid #FF33FF;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent; 
+	position: absolute; top: 0; left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+.special_picks_box .picks_menu ul li a:hover span:before {
+	opacity: 1;
+}
+
+/* picks_box */
+.picks_box {
+	width: 944px; height: 316px;
+}
+.picks_box_s {
+	width: 236px; height: 316px;
+	float: left;
+}
+.picks_box_s .picks_img {
+	text-align: center;
+	margin: 15px 0	;
+}
+.picks_box_s .picks_icon {
+	width: 50px; height: 16px;
+	background:url(../images/icons.png) no-repeat -100px 0;
+	margin-left: 45%;
+	margin-bottom: 5px;
+}
+.picks_box_s .icon02 {
+	background-position: -50px 0;
+	margin-left: 40%;
+}
+.picks_box_s .icon04 {
+	background-position: -150px 0;
+}
+
+/* magazine */
+.magazine {
+	width: 944px; height: 122px;
+	margin-top: 20px;
+}
+
+/* brand_focus_box */
+.brand_focus_box {
+	margin-top: 20px;
+}
+.product ul {
+	overflow: hidden;
+}
+.product ul li {
+	float: left;
+	margin-right: 15px;
+}
+.product ul li:last-child {
+	margin: 0;
+}
+
+
+/* best_contents_box */
+.best_contents_box {
+	width: 944px; height: 337px;
+	margin-top: 20px;
+}
+.best_contents_box .best_contents .bc_menu {
+	width: 176px; height: 288px;
+	float: left;
+}
+.best_contents_box .best_contents .iframe {
+	width: 768px; height: 288px;
+	background-image: url(../images/best_main00.jpg);
+	float: right;
+}
+.best_contents_box .best_contents .bc_menu ul {}
+.best_contents_box .best_contents .bc_menu ul li {
+	width: 176px; height: 72px;
+	border-bottom: 1px solid #fff;
+	box-sizing: border-box;
+}
+.best_contents_box .best_contents .bc_menu ul li a {
+	display: block;
+	width: 176px; height: 72px;
+}
+.best_contents_box .best_contents .bc_menu ul li:nth-child(1) {
+	background:url(../images/best_menu01.jpg);
+}
+.best_contents_box .best_contents .bc_menu ul li:nth-child(2) {
+	background:url(../images/best_menu02.jpg);
+}
+.best_contents_box .best_contents .bc_menu ul li:nth-child(3) {
+	background:url(../images/best_menu03.jpg);
+}
+.best_contents_box .best_contents .bc_menu ul li:nth-child(4) {
+	background:url(../images/best_menu04.jpg);
+}
+.best_contents_box .best_contents .bc_menu ul li:nth-child(1) a:hover {
+	background:url(../images/best_menu01_r.jpg);
+}
+.best_contents_box .best_contents .bc_menu ul li:nth-child(2) a:hover {
+	background:url(../images/best_menu02_r.jpg);
+}
+.best_contents_box .best_contents .bc_menu ul li:nth-child(3) a:hover {
+	background:url(../images/best_menu03_r.jpg);
+}
+.best_contents_box .best_contents .bc_menu ul li:nth-child(4) a:hover {
+	background:url(../images/best_menu04_r.jpg);
+}
+.best_contents_box .best_contents .bc_menu ul li:last-child {
+	border: 0;
+}
+.best_contents_box .best_contents .bc_menu ul li:hover {
+	background-color: #000;
+}
+
+/* tab_box */
+.tab_box {
+	width: 944px; height: 285px;
+	margin-top: 20px;
+}
+
+.tab_box .product {
+	width: 944px; height: 236px;
+	overflow: hidden;
+}
+.tab_box .product .product01 {
+	width: 288px; height: 196px;
+	float: left;
+	background:url(../images/tap_product01.png);
+	margin: 20px;
+}
+.tab_box .product .product02 {
+	width: 288px; height: 196px;
+	float: left;
+	background:url(../images/tap_product02.png);
+	margin: 20px 0;
+}
+.tab_box .product .product03 {
+	width: 288px; height: 196px;
+	float: left;
+	background:url(../images/tap_product03.png);
+	margin: 20px;
+}
+
+/*footer*/
+
+#footer { 
+	margin-top:50px; 
+	border-top:3px solid #000;
+}
+.section { 
+	width:314px; height:135px; 
+	float:left;
+}
+.section ul { 
+	border-right:1px dotted #333; 
+	margin:15px;
+}
+.section ul li { 
+	font-size:0.9em; 
+	margin-bottom:6px;
+}
+.section ul li span { 
+	font-size:1.2em; 
+	font-weight:bold; 
+}
+.section ul li strong { 
+	font-size:1.7em;
+}
+.section ul.outlet { 
+	border-bottom:1px dotted #333; 
+	border-right:0;
+}
+
+.html_mark {
+	float: left;
+	margin-right: 20px;
+	margin-left: 400px;
+	margin-top: 50px;
+}
+.css_mark {
+	float: left;
+	margin-top: 50px;
+}

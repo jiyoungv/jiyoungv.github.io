@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="jiyoung_park"> 
+ 	<meta name="description" content="박지영 포트폴리오">
+ 	<meta name="keyword" content="포트폴리오,웹디자이너,웹퍼블리셔">	
+	
+	<title>박지영의 포트폴리오</title>
+
+	<link rel="stylesheet" href="../css/work.css">
+	<link rel="shortcut icon" href="../img/favicon_3.ico">
+</head>
+
+<body>
+	
+	<!--left_start-->
+	<div class="left">
+		<a href="../index.html" class="logo" title="home">
+			<div class="logo_img" id="logo_img"></div>
+		</a>
+		<nav>
+			<ul class="nav">
+				<li><a href="about.html" class="nav_1" onmouseover="logoImgOver1()" onmouseout="logoImgOut1()">ABOUT</a></li>
+				<li><a href="work.html" class="nav_2">WORK</a></li>
+				<ul class="nav_s">
+					<li><a href="illust.html">Illust</a></li>
+					<li><a href="banner.html">Banner</a></li>
+					<li><a href="event.html">Event Page</a></li>
+					<li><a href="webmail.html">Webmail</a></li>
+					<li><a href="promotion.html">Promotion Page</a></li>
+					<li><a href="coding.html">Coding</a></li>
+					<li><a href="redesign.html">Redesign Site</a></li>
+					<li><a href="project.html">Project Site</a></li>
+				</ul>
+				<li><a href="contact.html" class="nav_3" onmouseover="logoImgOver1()" onmouseout="logoImgOut1()">CONTACT</a></li>
+			</ul>
+		</nav>
+		<p class="footer">ⓒ Jiyoung 2018.</p>
+	</div>
+
+
+	<!--center_start-->
+	<div class="center">
+		<div class="center_1">
+			<div class="work_1">
+				<a href="illust.html" class="work_img">
+					<img src="../img/work_1.jpg" alt="work_1">
+					<p class="work_img_hover">Woman</p>
+				</a>
+				<p class="work_txt_1">1</p>
+				<p class="work_txt_2">- Illust</p>
+			</div>
+			<div class="work_2">
+				<a href="banner.html" class="work_img">
+					<img src="../img/work_2.jpg" alt="work_2">
+					<p class="work_img_hover">Swatch<br>&amp;<br>Bearbrick</p>
+				</a>
+				<p class="work_txt_1">2</p>
+				<p class="work_txt_2">- Banner</p>				
+			</div>
+			<div class="work_3">
+				<a href="event.html" class="work_img">
+					<img src="../img/work_3.jpg" alt="work_3">
+					<p class="work_img_hover">Walkerhill</p>
+				</a>
+				<p class="work_txt_1">3</p>
+				<p class="work_txt_2">- Event Page</p>					
+			</div>
+		</div>
+		<div class="center_2">
+			<div class="work_4">
+				<a href="webmail.html" class="work_img">
+					<img src="../img/work_4.jpg" alt="work_4">
+					<p class="work_img_hover">iHerb</p>
+				</a>
+				<p class="work_txt_1">4</p>
+				<p class="work_txt_2">- WebMail</p>					
+			</div>
+			<div class="work_5">
+				<a href="promotion.html" class="work_img">
+					<img src="../img/work_5.jpg" alt="work_5">
+					<p class="work_img_hover">보성다향대축제</p>
+				</a>
+				<p class="work_txt_1">5</p>
+				<p class="work_txt_2">- Promotion Page</p>					
+			</div>
+			<div class="work_6">
+				<a href="coding.html" class="work_img">
+					<img src="../img/work_6.jpg" alt="work_6">
+					<p class="work_img_hover">Practice</p>
+				</a>
+				<p class="work_txt_1">6</p>
+				<p class="work_txt_2">- Coding</p>				
+			</div>			
+		</div>
+		<div class="center_3">
+			<div class="work_7">
+				<a href="redesign.html" class="work_img">
+					<img src="../img/work_7.jpg" alt="work_7">
+					<p class="work_img_hover">Artisee</p>
+				</a>
+				<p class="work_txt_1">7</p>
+				<p class="work_txt_2">- Redesign Site</p>					
+			</div>
+			<div class="work_8">
+				<a href="project.html" class="work_img">
+					<img src="../img/work_8.jpg" alt="work_8">
+					<p class="work_img_hover">Youngda</p>
+				</a>
+				<p class="work_txt_1">8</p>
+				<p class="work_txt_2">- Project Site</p>					
+			</div>
+			<div class="soon">
+				<p>● ● ●</p>
+				<p>Coming Soon</p>
+			</div>			
+		</div>
+	</div>
+
+
+	<!--right_start-->
+	<div class="right_bg">
+		<div class="right">
+			<p>WORK</p>
+		</div>
+	</div>
+
+
+
+
+
+<!--jquery_start-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+
+	});	
+	function logoImgOver1(){ 
+	   var obj = document.getElementById("logo_img"); 
+	   obj.classList.add('logo_img_hover_1'); 
+	} 
+	function logoImgOut1(){ 
+	   var obj = document.getElementById("logo_img"); 
+	   obj.classList.remove('logo_img_hover_1'); 
+	} 		
+</script>
+
+</body>
+</html>

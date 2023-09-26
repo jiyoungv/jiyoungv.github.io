@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 초기화 */
+
+* { margin:0; padding:0; }
+img { border:0; }
+li { list-style:none; }
+a { text-decoration:none; color:#333333; }
+font { font-family:Arial, Helvetica, sans-serif;}
+
+/* layout */
+#header {
+	width:970px; height:112px;
+	background-color:#666666;
+	margin:0 auto;
+	position:relative; /* 부모에 절대 좌표 */
+}
+#container {
+	width:970px; height:1364px;
+	background-color:#333333;
+	margin:0 auto;
+}
+#footer_bg {
+	width:100%; height:80px; /* 100%는 margin 줄필요없음 mar*/
+	background-color:#999999;
+	margin-top:80px;
+}
+
+/* header */
+#header #logo {
+	width:118px; height:21px;
+	background:url(../images/Untitled-1_10.jpg);
+	position:absolute; left:0; top:64px;
+}
+#header nav .lnb {
+	overflow:hidden;
+	position:absolute; right:0; top:20px;
+}
+#header nav .lnb li {
+	float:left;
+}
+#header nav .lnb li a { 
+	/* a태그가 들어가면 a태그에 적용, block으로 변경 */
+	display:block;
+	padding:0 5px;
+	font-size:12px;
+	
+}
+#header nav .lnb li:last-child a {
+	padding-right:0;
+	
+}
+#header nav .lnb li:first-child a {
+	border-right:1px solid white;
+}
+#header nav .lnb li a:hover {
+	color:#9900FF;
+}
+#header nav .gnb {
+	overflow:hidden;
+	position:absolute; right:0; bottom:30px;
+}
+#header nav .gnb li {
+	float:left;
+}
+#header nav .gnb li a {
+	display:block;
+	padding-left:20px;
+	font-size:14px;
+}
+#header nav .gnb li a:hover {
+	color:#9900FF;
+}
+#header nav .gnb li.red_text a {
+	color:#FF3333;	
+}
+#header nav .gnb li.pink_text a {
+	color:#FF33CC;
+}
+#header nav .gnb li.red_text a:hover {
+	color:#0066FF;
+}
+#header nav .gnb li.pink_text a:hover {
+	color:#336600;
+}
+
+/* container */
+#container #content01 {
+	width:970px; height:578px;
+	background-color:#CCCCFF;
+	margin-bottom:10px;
+}
+#container #content02 {
+	width:970px; height:186px;
+	background-color:#CC99FF;	
+	margin-bottom:10px;
+}
+#container #content03 {
+	width:970px; height:578px;
+	background-color:#CC99FF;
+}
+/* content01 */
+#content01 .big_left {
+	width:480px; height:578px;
+	background-color:#FF99CC;
+	float:left;
+	margin-right:10px;
+}
+#content01 .big_right {
+	width:480px; height:578px;
+	background-color:#FF99CC;
+	float:left;
+}
+#content01 .big_right .right_box01 {
+	width:235px; height:186px;
+	background-color:#FF6600;
+	float:left;	
+	margin-right:10px;
+}
+#content01 .big_right .right_box02 {
+	width:235px; height:186px;
+	background-color:#FF6600;
+	float:left;
+}
+#content01 .big_right .right_box03 {
+	width:480px; height:186px;
+	background-color:#FF6600;
+	float:left;
+	margin:10px 0;
+}
+#content01 .big_right .right_box04 {
+	width:480px; height:186px;
+	background-color:#FF6600;
+	float:left;
+}
+/* content02 */
+#content02 .center_box01 {
+	width:480px; height:186px;
+	background-color:#006633;
+	float:left;
+	margin-right:10px;
+}
+#content02 .center_box02 {
+	width:235px; height:186px;
+	background-color:#006633;
+	float:left;
+	margin-right:10px;
+}
+#content02 .center_box03 {
+	width:235px; height:186px;
+	background-color:#006633;
+	float:left;
+}
+/* content03 */
+#content03 .bottom_left {
+	width:480px; height:578px;
+	background-color:#3399FF;
+	float:left;
+	margin-right:10px;
+}
+#content03 .bottom_left .bottom_left_box01 {
+	width:235px; height:186px;
+	background-color:#33FFCC;
+	float:left;
+	margin-bottom:10px;
+}
+#content03 .bottom_left .bottom_left_box02 {
+	width:235px; height:382px;
+	background-color:#33FFCC;
+	float:right;
+}
+#content03 .bottom_left .bottom_left_box03 {
+	width:235px; height:186px;
+	background-color:#33FFCC;
+	float:left;
+	margin-bottom:10px;
+}
+#content03 .bottom_left .bottom_left_box04 {
+	width:480px; height:186px;
+	background-color:#33FFCC;
+	float:left;
+}
+#content03 .bottom_right {
+	width:480px; height:578px;
+	background-color:#3399FF;
+	float:left;
+}
+
+/* footer */
+#footer {
+	width:970px; height:80px;
+	background-color:#663300;
+	margin:0 auto;
+}
+#footer .footer_menu {
+	overflow:hidden;
+	float:left;
+	margin-right:20px;
+}
+#footer .footer_menu li {
+	float:left;
+	font-size:12px;
+	margin-top:30px;
+}
+#footer .footer_menu li a {
+	display:block;
+	padding:0 5px;
+	border-right:1px solid black;
+	line-height:10px;
+}
+#footer .footer_menu li:last-child a {
+	border:none;
+}
+#footer .copyright {
+	overflow:hidden;
+	float:left;
+}
+#footer .copyright li {
+	float:left;
+	font-size:12px;
+	border-right:1px solid black;
+	padding:0 5px;
+	line-height:10px;
+	margin-top:30px;
+}
+#footer .selection {
+	float:right;
+	margin-top:20px;
+}
+#footer .selection select {
+	width:50px;
+}
+/* 마지막에 background-color 지우면 끝! */

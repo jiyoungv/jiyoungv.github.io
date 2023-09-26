@@ -1,0 +1,266 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+/* CSS Document */
+
+/* 초기화 */
+a,p,h1,h2,h3,h4,h5,h6 {
+	text-decoration: none; 
+	color: #999999;
+	padding: 0;
+	margin: 0;
+}
+ul,li {
+	list-style: none; color: #999999;
+	padding: 0;
+}
+img {
+	border: 0;
+}
+body {
+	font-family: 'Muli', sans-serif;
+	padding: 0; margin: 0;
+}
+.ir { 
+	width: 0; height: 0; font-size: 0; line-height: 0; 
+	overflow: hidden; 
+}
+
+/*스크롤바*/
+::-webkit-scrollbar {
+ width: 13px; height: 8px; 
+ border: 3px solid #fff; }
+::-webkit-scrollbar-button:start:decrement, 
+::-webkit-scrollbar-button:end:increment {
+ display: block; height: 10px; 
+ background:#FFF;}
+::-webkit-scrollbar-track {background:#FFF;}
+::-webkit-scrollbar-thumb {height: 50px; width: 50px; background: #ee65a3;}
+/**/
+
+/* left */
+.left {
+	float: left;
+	width: 100px; height: 700px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.logo {
+	display: block;
+	margin-bottom: 120px;
+}
+.logo_img {
+	width: 100px; height: 100px;
+	background: linear-gradient(#f066a5 70% , #61a644);	
+}
+.logo_img_hover_1 { 
+   background: linear-gradient(#f066a5 5%, #61a644 30%); 
+}
+.logo_img:hover {
+	background: linear-gradient(#f066a5, #61a644);
+}
+
+.nav {
+	margin-bottom: 120px;
+}
+.nav li {
+	margin-bottom: 20px;
+}
+.nav li:nth-child(2) {
+	margin-bottom: 10px;
+}
+.nav li a {}
+.nav .nav_1:hover {
+	color: #62a60e;
+}
+.nav .nav_2 {
+	color: #f066a5;
+}
+.nav .nav_3:hover {
+	color: #62a60e;
+}
+
+.nav_s {}
+.nav_s li {
+	margin-bottom: 10px;
+}
+.nav_s li a {
+	font-size: 13px;
+}
+.nav_s li a:hover {
+	color: #f066a5;
+}
+.nav_s li:nth-child(4) a {
+	color: #f066a5;
+}
+
+.footer {
+	font-size: 12px;
+}
+
+
+/* center */
+.center {
+	float: left;
+	margin-top: 50px;
+	width: 85.28%;
+	padding-bottom: 150px;
+	position: relative;
+}
+
+.ceter_txt {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 150px;
+}
+.ceter_txt p {}
+.ceter_txt .ceter_title {
+	width: 280px;
+	margin: 0 auto;
+	font-size: 35px;
+	color: #f066a5;
+	border-top: 7px solid #f066a5;
+	margin-bottom: 50px;
+}
+.ceter_txt .ceter_dsc {
+	font-family: 'Nanum Gothic', sans-serif;
+	line-height: 25px;
+}
+
+.ceter_img {
+	width: 100%;
+	margin-bottom: 200px;
+}
+.ceter_img img {
+	display: block;
+	margin: 0 auto;
+}
+.ceter_img img:nth-child(1) {
+	width: 700px;
+	margin-bottom: 200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ceter_img img:nth-child(2) {
+	width: 1000px;
+}
+
+
+
+
+.ceter_footer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.ceter_footer_1 {
+	float: left;
+	width: 300px; height: 370px;
+	margin-right: 50px;
+	position: relative;	
+}
+.work_txt_left {
+	position: absolute; top: 0; right: 0;
+}
+.ceter_footer_2 {
+	float: left;
+	width: 300px; height: 370px;
+	text-align: center;
+}
+.ceter_footer_3 {
+	float: right;
+	width: 300px; height: 370px;
+	position: relative;	
+}
+.work_txt_right {
+	position: absolute; top: 0; left: 0;
+}
+
+.ceter_footer_2 p {
+	margin-top: 170px;
+}
+.ceter_footer_2 p a {
+	color: #f066a6;
+}
+
+.work_img {
+	display: block;
+	margin-top: 40px;
+	transition-duration: 0.5s;
+}
+.work_img img {
+	width: 100%;
+}
+.work_img .work_img_hover {
+	position: absolute; top: 0; left: 0;
+	margin-top: 40px;
+	width: 300px; height: 300px;
+	text-align: center;
+	background-color: #fff;
+	opacity: 0;
+	color: #f066a6;
+	font-size: 20px;
+	padding-top: 130px; box-sizing: border-box;
+	transition-duration: 0.5s;
+}
+.work_img:hover .work_img_hover {
+	opacity: 1;
+}
+
+
+.work_txt_1 {
+	font-size: 70px;
+	color: #f066a6;
+	line-height: 65px;
+}
+.work_txt_2 {
+	text-align: right;
+	color: #f066a6;
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+
+
+/* top */
+.top_btn {
+	width: 20px;
+	margin-left: 94%;
+	margin-top: -50px;
+}
+.top_btn a {
+	width: 100%;
+	text-align: center;
+}
+.top_btn a p {
+	color: #f066a6;
+}
+.top_btn a p:nth-child(1) {
+	font-size: 22px;
+}
+
+
+
+
+/* right */
+.right_bg {
+	float: right;
+	width: 80px; height: 700px;
+	position: fixed;
+	margin-left: 97%;
+}
+.right {
+	transform: rotate(90deg);
+	position: absolute; top: 320px; right: 0;
+	width: 300px;
+	text-align: center;
+	padding-bottom: 125px;
+}
+.right p {
+	color: #f066a5;
+	border-bottom: 7px solid #f066a5;
+	font-size: 35px;
+	margin: 0;
+	margin-top: -20px;
+}
