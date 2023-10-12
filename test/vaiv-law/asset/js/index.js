@@ -140,6 +140,20 @@ $(document).ready(function () {
       $('.main-result-law-skeleton').removeClass('show');
       $('.main-result-law').addClass('show');
       initMainResultLawText();
+
+      // 다른 내용 더보기 click
+      $('.main-result-law-list .list-more-button').on('click', function () {
+        const thisEl = $(this);
+        const lawListEl = thisEl.parent('.list-foot').siblings('.main-result-law-list.depth2');
+        
+        if (!lawListEl.hasClass('show')) {
+          lawListEl.addClass('show');
+          thisEl.text('닫기');
+        } else {
+          lawListEl.removeClass('show');
+          thisEl.text('다른 내용도 더 볼까요?');
+        }
+      });
     }, 3000);
   });
 });

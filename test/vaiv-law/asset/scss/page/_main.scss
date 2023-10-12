@@ -46,15 +46,16 @@
 
 .main-result-law {display: none;}
 .main-result-law.show {display: block;}
-.main-result-law-list {border-left: 10px solid transparent;}
-.main-result-law-list:nth-child(odd) {border-left-color: $primary300;}
-.main-result-law-list:nth-child(even) {border-left-color: $grey300;}
+.main-result-law-list:not(.depth2) {border-left: 10px solid transparent;}
+.main-result-law-list:not(.depth2):nth-child(odd) {border-left-color: $primary300;}
+.main-result-law-list:not(.depth2):nth-child(even) {border-left-color: $grey300;}
 .main-result-law-list > li {padding: 16px 16px 18px;border-right: 1px solid $grey300;border-bottom: 1px solid $grey300;}
 .main-result-law-list:first-child > li:first-child {border-top: 1px solid $grey300;}
-.main-result-law-list .list-title {display: flex;flex-wrap: wrap;align-items: flex-end;gap: 2px 6px;}
-.main-result-law-list .list-title a {@include font-mid;display: inline-block;color: $grey800;font-weight: $font-bold;text-decoration: underline;transition: color $transition-speed;}
-.main-result-law-list .list-title a:hover {color: $primary;}
-.main-result-law-list .list-title small {@include font-small;color: $primary400;font-weight: $font-medium;}
+.main-result-law-list .list-title {display: inline-flex;flex-wrap: wrap;align-items: flex-end;gap: 2px 6px;border-bottom: 1px solid transparent;}
+.main-result-law-list .list-title p {@include font-mid;display: inline-block;color: $grey800;font-weight: $font-bold;transition: color $transition-speed;}
+.main-result-law-list .list-title:hover {border-color: $grey900;}
+.main-result-law-list .list-title:hover p {color: $primary;}
+.main-result-law-list .list-title small {@include font-small;color: $primary400;font-weight: $font-medium;transition: all $transition-speed;}
 .main-result-law-list .list-text {position: relative;margin-top: 10px;}
 .main-result-law-list .list-text.cut-toggle::after {content: '';display: block;position: absolute;left: 0;bottom: 0;width: 100%;height: calc(#{$font-base} * #{$line-height2} * 1.5);background: linear-gradient(180deg, transparent 0%, #FFF 100%);}
 .main-result-law-list .list-text.cut-toggle p {@include text-cut-line($line-height2, 5);white-space: pre-line;}
@@ -69,5 +70,11 @@
 .main-result-law-list .list-text-toggle-button.show {display: inline-flex;}
 .main-result-law-list .list-text-toggle-button:hover {transform: translate(-50%, 4px);}
 .main-result-law-list .list-text-toggle-button i {flex-shrink: 0;}
-.main-result-law-list .list-date {margin-top: 10px;}
+.main-result-law-list .list-foot {display: flex;justify-content: space-between;align-items: flex-end;margin-top: 10px;}
 .main-result-law-list .list-date p {@include font-small;color: $grey;}
+.main-result-law-list .list-more-button {padding: 4px 12px;border: 0;border-radius: $radius1;background: $grey600;color: $white;transition: background $transition-speed;}
+.main-result-law-list .list-more-button:hover {background: $primary;}
+.main-result-law-list.depth2 {display: none;margin: 10px 20px 0;}
+.main-result-law-list.depth2.show {display: block;}
+.main-result-law-list.depth2 > li {border-right: 0;}
+.main-result-law-list.depth2 > li:last-child {border-bottom: 0;}
