@@ -94,6 +94,12 @@ function initMainResultLawText() {
   });
 }
 
+function activeResultSummaryTab(activeIndex) {
+  // active class
+  $('.main-result-summary .summary-tab-list > li').removeClass('active');
+  $('.main-result-summary .summary-tab-list > li').eq(activeIndex - 1).addClass('active');
+}
+
 $(document).ready(function () {
   // init
   activeMainTab(1);
@@ -135,6 +141,13 @@ $(document).ready(function () {
     setTimeout(() => {
       $('.main-result-summary-skeleton').removeClass('show');
       $('.main-result-summary').addClass('show');
+      activeResultSummaryTab(1);
+
+      // 답변 tab
+      $('.main-result-summary .summary-tab-list .list-button').on('click', function () {
+        const activeIndex = $(this).data('tab-index');
+        activeResultSummaryTab(activeIndex);
+      });
     }, 2000);
     setTimeout(() => {
       $('.main-result-law-skeleton').removeClass('show');
