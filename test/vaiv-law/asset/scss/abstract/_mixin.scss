@@ -9,7 +9,7 @@
 
 /* text-cut */
 @mixin text-cut {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
-@mixin text-cut-line($line-height: $line-height1, $line: 2) {display: -webkit-box;max-height: calc(#{$line-height}em * #{$line});overflow: hidden;text-overflow: ellipsis;white-space: normal;word-wrap: break-word;-webkit-line-clamp: $line;-webkit-box-orient: vertical;}
+@mixin text-cut-multi($line-height: $line-height1, $line: 2) {display: -webkit-box;max-height: calc(#{$line-height}em * #{$line});overflow: hidden;text-overflow: ellipsis;white-space: normal;word-wrap: break-word;-webkit-line-clamp: $line;-webkit-box-orient: vertical;}
 @mixin text-cut-clear {overflow: initial;display: block;max-height: none;text-overflow: initial;white-space: initial;}
 
 /* font */
