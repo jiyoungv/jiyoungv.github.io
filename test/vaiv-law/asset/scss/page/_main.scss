@@ -106,6 +106,8 @@
 .main-result-law-list .list-answer::before {display: inline-block;position: absolute;top: 0;left: 0;font-size: $h6;line-height: $h6;font-weight: $font-bold;}
 .main-result-law-list .list-question::before {content: 'Q';color: $grey;}
 .main-result-law-list .list-answer::before {content: 'A';color: $primary400;}
+.main-result-law-list .list-question p {color: $grey700;white-space: pre-line;}
+.main-result-law-list .list-question p mark {background: $primary100;color: $primary;font-weight: $font-medium;}
 .main-result-law-list .list-foot {display: flex;justify-content: space-between;align-items: flex-end;margin-top: 10px;}
 .main-result-law-list .list-date p {@include font-small;color: $grey;}
 .main-result-law-list .list-more-button {padding: 4px 12px;border: 0;border-radius: $radius1;background: $grey600;color: $white;transition: background $transition-speed;}

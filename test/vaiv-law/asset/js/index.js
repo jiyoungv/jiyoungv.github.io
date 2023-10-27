@@ -1,3 +1,15 @@
+function initCommon() {
+  // 모달 닫기
+  $('.vmodal .vmodal-bg').on('click', function () {
+    const thisEl = $(this);
+    thisEl.closest('.vmodal').removeClass('show');
+  });
+  $('.vmodal .vmodal-close-button').on('click', function () {
+    const thisEl = $(this);
+    thisEl.closest('.vmodal').removeClass('show');
+  });
+}
+
 function activeMainTab(activeIndex) {
   const filterTexts = [
     [
@@ -139,6 +151,7 @@ function initResultQuestion() {
 
 $(window).on('load', function () {
   // init
+  initCommon();
   activeMainTab(1);
   filterAutocomplete();
 

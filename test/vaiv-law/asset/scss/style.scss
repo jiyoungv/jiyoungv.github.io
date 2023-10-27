@@ -5,7 +5,7 @@
 @import "abstract/mixin";
 
 /* vendor */
-// @import "vendor/";
+@import "vendor/three-dots";
 
 /* base */
 @import "base/reset";
@@ -20,6 +20,8 @@
 /* component */
 @import "component/form";
 @import "component/button";
+@import "component/modal";
 
 /* page */
 @import "page/main";
+@import "page/chat";

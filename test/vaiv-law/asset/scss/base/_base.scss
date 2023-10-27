@@ -14,3 +14,4 @@ b, strong {font-weight: $font-bold;}
 
 #wrap {min-width: calc(#{$inner-width} + #{$inner-gutter} * 2);}
 #container {min-height: calc(100vh - #{$header-height} - #{$footer-height});padding: 20px 0 100px;}
+#container.type2 {padding-bottom: 0;}
