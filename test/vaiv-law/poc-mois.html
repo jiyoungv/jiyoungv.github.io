@@ -27,12 +27,19 @@
         <div class="header-row">
           <div class="header-logo type-mois">
             <h1>
-              <a href="/" title="홈 바로가기">
+              <a href="./poc-mois.html" title="홈 바로가기">
                 <img src="./asset/image/logo_mois.png" alt="행정안전부">
                 <em>PoC</em>
               </a>
             </h1>
           </div>
+          <nav id="gnb">
+            <ul class="gnb-list">
+              <li>
+                <a href="./poc-mois-chat.html" class="list-link">채팅</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
@@ -164,10 +171,10 @@
             <div class="main-result-summary type-tab">
               <ul class="summary-tab-list">
                 <li>
-                  <button type="button" class="list-button" data-tab-index="1">AI 답변 요약</button>
+                  <button type="button" class="list-button" data-tab-index="1">GeM 답변 요약</button>
                 </li>
                 <li>
-                  <button type="button" class="list-button" data-tab-index="2">GeM 답변 요약</button>
+                  <button type="button" class="list-button" data-tab-index="2">챗GPT 답변 요약</button>
                 </li>
               </ul>
               <!-- <div class="summary-title">
@@ -179,12 +186,86 @@
             </div>
           </article>
           <article class="main-result-row">
+            <div class="common-skeleton main-result-question-skeleton">
+              <div class="skeleton-item"></div>
+            </div>
+            <div class="main-result-question">
+              <div class="main-result-question-title">
+                <i class="ri-message-3-line"></i>
+                <p>관련 질문</p>
+              </div>
+              <ul class="main-result-question-list">
+                <li>
+                  <p>1. 법령안 입법예고에 대한 의견 제출이 어느 민원에 해당하는지? 해당하는지? 해당하는지? 해당하는지? 해당하는지?</p>
+                </li>
+                <li>
+                  <p>2. 불법등록전환 토지의 취소요구가 법정민원에 해당하는지?</p>
+                </li>
+                <li>
+                  <p>3. 하급기관의 공무원이 상급기관에 제출한 질의가 무엇인지? 무엇인지? 무엇인지? 무엇인지? 무엇인지?</p>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="main-result-row">
             <div class="common-skeleton main-result-law-skeleton">
               <div class="skeleton-item"></div>
               <div class="skeleton-item"></div>
               <div class="skeleton-item"></div>
             </div>
             <div class="main-result-law">
+              <ul class="main-result-law-list">
+                <li>
+                  <a class="list-title" href="https://www.law.go.kr/법령/소프트웨어진흥법/(20211230,17799,20201229)/제50조" target="_blank">
+                    <p>외국국적 보유자의 주민등록</p>
+                  </a>
+                  <div class="list-question">
+                    <p><mark>외국인</mark>이 우리나라 국적을 취득하고 국내에서 거주하려고 할 경우 주민등록신고 방법은?</p>
+                  </div>
+                  <div class="list-text list-answer">
+                    <p><mark>제50조(소프트웨어사업 과업심의위원회)</mark> ① 국가기관등의 장은 소프트웨어사업의 추진에 관한 다음 각 호의 사항을 심의하기 위하여 소프트웨어사업 과업심의위원회(이하 “과업심의위원회”라 한다)를 두어야 한다.
+                      1. 과업내용의 확정
+                      2. 과업내용 변경의 확정 및 이에 따른 계약금액ㆍ계약기간 조정
+                      ② 국가기관등의 장은 특별한 사정이 없으면 제1항에 따른 심의결과를 계약 등에 반영하여야 한다.
+                      ③ 국가기관등의 장과 소프트웨어사업의 계약을 체결한 사업자는 과업내용 변경으로 인한 계약내용 변경이 필요한 경우 국가기관등의 장에게 과업심의위원회의 개최를 요청할 수 있다. 이 경우 국가기관등의 장은 특별한 사정이 없으면 요청을 수용하여야 한다.
+                      ④ 제1항 및 제3항에 따른 과업심의위원회의 구성ㆍ운영, 과업내용의 확정ㆍ변경 및 개최 요청 절차 등에 관하여 필요한 사항은 대통령령으로 정한다.
+                    </p>
+                    <button type="button" class="list-text-toggle-button">
+                      <i class="ri-arrow-down-s-line"></i>
+                    </button>
+                  </div>
+                  <div class="list-foot">
+                    <div class="list-date">
+                      <p>[시행 2021. 12. 30.] [법률 제17799호, 2020. 12. 29, 타법개정] 과학기술정보통신부</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a class="list-title" href="https://www.law.go.kr/법령/소프트웨어진흥법/(20211230,17799,20201229)/제50조" target="_blank">
+                    <p>외국국적 보유자의 주민등록2</p>
+                  </a>
+                  <div class="list-question">
+                    <p>외국인이 우리나라 국적을 취득하고 국내에서 거주하려고 할 경우 주민등록신고 방법은? 외국인이 우리나라 국적을 취득하고 국내에서 거주하려고 할 경우 주민등록신고 방법은? 외국인이 우리나라 국적을 취득하고 국내에서 거주하려고 할 경우 주민등록신고 방법은?</p>
+                  </div>
+                  <div class="list-text list-answer">
+                    <p><mark>제50조(소프트웨어사업 과업심의위원회)</mark> ① 국가기관등의 장은 소프트웨어사업의 추진에 관한 다음 각 호의 사항을 심의하기 위하여 소프트웨어사업 과업심의위원회(이하 “과업심의위원회”라 한다)를 두어야 한다.
+                      1. 과업내용의 확정
+                      2. 과업내용 변경의 확정 및 이에 따른 계약금액ㆍ계약기간 조정
+                      ② 국가기관등의 장은 특별한 사정이 없으면 제1항에 따른 심의결과를 계약 등에 반영하여야 한다.
+                      ③ 국가기관등의 장과 소프트웨어사업의 계약을 체결한 사업자는 과업내용 변경으로 인한 계약내용 변경이 필요한 경우 국가기관등의 장에게 과업심의위원회의 개최를 요청할 수 있다. 이 경우 국가기관등의 장은 특별한 사정이 없으면 요청을 수용하여야 한다.
+                      ④ 제1항 및 제3항에 따른 과업심의위원회의 구성ㆍ운영, 과업내용의 확정ㆍ변경 및 개최 요청 절차 등에 관하여 필요한 사항은 대통령령으로 정한다.
+                    </p>
+                    <button type="button" class="list-text-toggle-button">
+                      <i class="ri-arrow-down-s-line"></i>
+                    </button>
+                  </div>
+                  <div class="list-foot">
+                    <div class="list-date">
+                      <p>[시행 2021. 12. 30.] [법률 제17799호, 2020. 12. 29, 타법개정] 과학기술정보통신부</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
               <ul class="main-result-law-list">
                 <li>
                   <a class="list-title" href="https://www.law.go.kr/법령/소프트웨어진흥법/(20211230,17799,20201229)/제50조" target="_blank">

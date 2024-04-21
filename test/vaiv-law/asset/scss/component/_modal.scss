@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.vmodal {z-index: $zindex1;display: none;position: fixed;top: 0;left: 0;right: 0;bottom: 0;}
+.vmodal.show {display: block;}
+.vmodal-bg {position: absolute;top: 0;left: 0;right: 0;bottom: 0;background: rgba($black, 0.3);}
+.vmodal-bg.clear {background: transparent;}
+.vmodal-box {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);border-radius: $radius2;background: $white;animation: modal-ani $transition-speed;}
+.vmodal-close-button {display: inline-flex;justify-content: center;align-items: center;position: absolute;top: -5px;left: 50%;transform: translate(0, -100%);width: 30px;height: 30px;border: 0;border-radius: 50%;background: rgba($grey900, 0.8);color: $white;font-size: $h6;line-height: 1;transition: background $transition-speed;}
+.vmodal-close-button:hover {background: $grey900;}
+.vmodal-content {@include scrollbar-style;overflow: auto;max-width: 90vw;min-width: 300px;max-height: calc(90vh - 30px - 5px);min-height: 100px;padding: 14px 18px;}
+@keyframes modal-ani {
+  0% {top: calc(50% - 20px);}
+  100% {top: 50%;}
+}

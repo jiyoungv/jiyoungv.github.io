@@ -1,3 +1,15 @@
+function initCommon() {
+  // 모달 닫기
+  $('.vmodal .vmodal-bg').on('click', function () {
+    const thisEl = $(this);
+    thisEl.closest('.vmodal').removeClass('show');
+  });
+  $('.vmodal .vmodal-close-button').on('click', function () {
+    const thisEl = $(this);
+    thisEl.closest('.vmodal').removeClass('show');
+  });
+}
+
 function activeMainTab(activeIndex) {
   const filterTexts = [
     [
@@ -100,8 +112,46 @@ function activeResultSummaryTab(activeIndex) {
   $('.main-result-summary .summary-tab-list > li').eq(activeIndex - 1).addClass('active');
 }
 
-$(document).ready(function () {
+function initResultQuestion() {
+  const questionListEl = $('.main-result-question-list');
+  const questionListLength = questionListEl.children('li').length;
+
+  // clear
+  questionListEl.removeClass('check content2 content3');
+
+  // data-text 추가
+  questionListEl.children('li').each(function () {
+    const thisEl = $(this);
+    const text = $.trim(thisEl.text());
+
+    thisEl.attr('data-text', text);
+  });
+
+  // 질문 width 조정
+  const innerWidth = 1200;
+  const titleListGap = 20;
+  const questionTitleWidth = $('.main-result-question-title').outerWidth();
+  const questionListMaxWidth = Math.trunc(innerWidth - titleListGap - questionTitleWidth);
+  
+  if (!questionListEl.hasClass('check')) { // 중복 방지
+    const questionListWidth = questionListEl.outerWidth();
+
+    if (questionListWidth >= questionListMaxWidth) { // 질문 width 넘치면
+      questionListEl.css({ 'max-width': `${questionListMaxWidth}px`});
+      questionListEl.addClass('overflow');
+
+      if (questionListLength > 1) {
+        questionListEl.addClass(`content${questionListLength}`);
+      }
+    }
+
+    questionListEl.addClass('check');
+  }
+}
+
+$(window).on('load', function () {
   // init
+  initCommon();
   activeMainTab(1);
   filterAutocomplete();
 
@@ -130,25 +180,42 @@ $(document).ready(function () {
   $('.main-form').on('submit', function (e) {
     e.preventDefault();
 
+    // 스켈레톤 clear
     $('.main-result-summary').removeClass('show');
+    $('.main-result-question').removeClass('show');
     $('.main-result-law').removeClass('show');
 
     // 스켈레톤 show
     $('.main-result-summary-skeleton').addClass('show');
+    $('.main-result-question-skeleton').addClass('show');
     $('.main-result-law-skeleton').addClass('show');
 
-    // 결과 show
+    // 결과 - 요약 show
     setTimeout(() => {
       $('.main-result-summary-skeleton').removeClass('show');
       $('.main-result-summary').addClass('show');
       activeResultSummaryTab(1);
 
-      // 답변 tab
+      // 탭 click
       $('.main-result-summary .summary-tab-list .list-button').on('click', function () {
         const activeIndex = $(this).data('tab-index');
         activeResultSummaryTab(activeIndex);
       });
     }, 2000);
+
+    // 결과 - 관련질문 show
+    setTimeout(() => {
+      $('.main-result-question-skeleton').removeClass('show');
+      $('.main-result-question').addClass('show');
+      initResultQuestion();
+
+      // 질문 click      
+      $('.main-result-question-list > li').on('click', function () {
+        alert($.trim($(this).text()));
+      });
+    }, 4000);
+
+    // 결과 - 법령리스트 show
     setTimeout(() => {
       $('.main-result-law-skeleton').removeClass('show');
       $('.main-result-law').addClass('show');
