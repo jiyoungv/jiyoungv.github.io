@@ -4,6 +4,8 @@ $(document).ready(function () {
     dots: true,
     autoplay: true,
     autoplaySpeed: 4000,
+    pauseOnFocus: false,
+    pauseOnHover: false,
   });
   $('.preview-modal .modal-slide .slick-arrow').html('');
   $('.preview-modal .modal-slide .slick-dots li').html('');
